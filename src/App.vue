@@ -1,7 +1,17 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>Hello World</h1>
+  <Navbar />
+  <Footer />
 </template>
 
-<style scoped></style>
+<script lang="ts">
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Navbar: Navbar,
+    Footer: Footer,
+  },
+};
+</script>
