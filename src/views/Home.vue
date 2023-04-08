@@ -8,7 +8,7 @@ import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
-  name: 'HomePage',
+  name: 'Home',
   components: {
     Navbar: Navbar,
     Footer: Footer,

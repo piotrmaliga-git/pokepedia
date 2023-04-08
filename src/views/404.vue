@@ -22,6 +22,6 @@
 
 <script lang="ts">
 export default {
-  name: '404Page',
+  name: '404',
 };
 </script>

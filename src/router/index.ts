@@ -6,17 +6,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('@/pages/HomePage.vue'),
+      component: () => import('@/views/Home.vue'),
     },
     {
       path: '/login',
       name: 'login',
-      component: () => import('@/pages/LoginPage.vue'),
+      component: () => import('@/views/Login.vue'),
     },
     {
       path: '/:catchAll(.*)',
       name: '404',
-      component: () => import('@/pages/404Page.vue'),
+      component: () => import('@/views/404.vue'),
     },
   ],
 });
