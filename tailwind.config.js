@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         rubik: ['Rubik', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero-image': "url('./src/assets/images/hero-image/hero-image.jpg')",
+      },
     },
   },
   plugins: [require('prettier-plugin-tailwindcss', 'eslint-plugin-tailwindcss', 'flowbite/plugin')],
