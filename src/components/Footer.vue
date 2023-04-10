@@ -1,21 +1,17 @@
 <template>
   <div>
-    <footer class="bg-white shadow dark:bg-gray-900">
+    <footer class="bg-red-800">
       <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
+            href="/"
             class="mb-4 flex items-center sm:mb-0">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="mr-3 h-8"
-              alt="Flowbite Logo" />
-            <span class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white"
-              >Flowbite</span
-            >
+              src="../assets/images/logo/Pokepedia.png"
+              class="mr-3 h-12"
+              alt="Pokepedia Logo" />
           </a>
-          <ul
-            class="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mb-0">
+          <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-white sm:mb-0">
             <li>
               <a
                 href="#"
@@ -46,13 +42,13 @@
             </li>
           </ul>
         </div>
-        <hr class="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
-        <span class="block text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+        <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
+        <span class="block text-sm text-white sm:text-center"
           >© 2023
           <a
-            href="https://flowbite.com/"
+            href="/"
             class="hover:underline"
-            >Flowbite™</a
+            >Pokepedia™</a
           >. All Rights Reserved.</span
         >
       </div>
