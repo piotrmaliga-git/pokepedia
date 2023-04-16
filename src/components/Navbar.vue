@@ -210,11 +210,17 @@
         </div>
       </div>
     </nav>
+    <Hero />
   </div>
 </template>
 
 <script lang="ts">
+import Hero from './Hero.vue';
+
 export default {
   name: 'Navbar',
+  components: {
+    Hero: Hero,
+  },
 };
 </script>
