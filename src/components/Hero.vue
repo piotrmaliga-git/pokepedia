@@ -1,18 +1,19 @@
 <template>
-  <section class="bg-gray-100">
-    <div class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
+  <section>
+    <div
+      class="absolute top-1/2 left-1/2 mx-auto grid w-full max-w-screen-xl -translate-x-1/2 -translate-y-1/2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
-          class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl">
+          class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl xl:text-6xl">
           Payments tool for software companies
         </h1>
-        <p class="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl">
+        <p class="mb-6 max-w-2xl font-light text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
           From checkout to global sales tax compliance, companies around the world use Flowbite to
           simplify their payment stack.
         </p>
         <a
           href="#"
-          class="mr-3 inline-flex items-center justify-center rounded-lg bg-red-600 px-5 py-3 text-center text-base font-medium text-white hover:bg-red-700 focus:ring-4">
+          class="mr-3 inline-flex items-center justify-center rounded-lg bg-red-600 px-5 py-3 text-center text-base font-medium text-white hover:scale-105 hover:bg-red-700">
           Get started
           <svg
             class="ml-2 -mr-1 h-5 w-5"
@@ -27,7 +28,7 @@
         </a>
         <a
           href="#"
-          class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-200 focus:ring-4 focus:ring-gray-100">
+          class="inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white px-5 py-3 text-center text-base font-medium text-gray-900 hover:scale-105 hover:bg-gray-200">
           Speak to Sales
         </a>
       </div>
