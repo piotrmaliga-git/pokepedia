@@ -34,7 +34,7 @@
       </div>
       <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
         <img
-          src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+          src="@/assets/images/hero-image/snorlax.png"
           alt="mockup" />
       </div>
     </div>
