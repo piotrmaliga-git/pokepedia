@@ -2,6 +2,7 @@
   <Navbar />
   <About />
   <Contact />
+  <Fqa />
   <Footer />
 </template>
 
@@ -9,6 +10,7 @@
 import Navbar from '@/components/Navbar.vue';
 import About from '@/components/About.vue';
 import Contact from '@/components/Contact.vue';
+import Fqa from '@/components/Fqa.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
@@ -17,6 +19,7 @@ export default {
     Navbar: Navbar,
     About: About,
     Contact: Contact,
+    Fqa: Fqa,
     Footer: Footer,
   },
 };
