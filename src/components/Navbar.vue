@@ -214,6 +214,13 @@
                   >Contact</a
                 >
               </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-48 text-white hover:scale-105 hover:text-red-500 md:p-0"
+                  >FQA</a
+                >
+              </li>
             </ul>
           </div>
         </div>
