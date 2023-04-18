@@ -59,8 +59,4 @@
   </section>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'Contact',
-};
-</script>
+<script lang="ts" setup></script>

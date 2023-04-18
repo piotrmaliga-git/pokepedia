@@ -76,7 +76,7 @@
               Sign in
             </button>
             <p class="text-sm font-light text-gray-500">
-              Don’t have an account yet?
+              Don't have an account yet?
               <a
                 href="#"
                 class="font-medium text-red-800 hover:underline"
@@ -89,8 +89,5 @@
     </div>
   </section>
 </template>
-<script lang="ts">
-export default {
-  name: 'Login',
-};
-</script>
+
+<script lang="ts" setup></script>

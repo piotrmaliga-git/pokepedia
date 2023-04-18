@@ -41,8 +41,4 @@
   </section>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'Hero',
-};
-</script>
+<script lang="ts" setup></script>

@@ -150,7 +150,7 @@ import { Icon } from '@iconify/vue';
 export default {
   name: 'Navbar',
   components: {
-    Hero: Hero,
+    Hero,
     Icon,
   },
 };

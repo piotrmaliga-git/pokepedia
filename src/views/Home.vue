@@ -16,11 +16,11 @@ import Footer from '@/components/Footer.vue';
 export default {
   name: 'Home',
   components: {
-    Navbar: Navbar,
-    About: About,
-    Contact: Contact,
-    Fqa: Fqa,
-    Footer: Footer,
+    Navbar,
+    About,
+    Contact,
+    Fqa,
+    Footer,
   },
 };
 </script>
