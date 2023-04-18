@@ -44,11 +44,11 @@
         </div>
         <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
         <span class="block text-sm text-white sm:text-center"
-          >© 2023
+          >&copy; {{ displayCurrentYear() }}
           <a
             href="/"
             class="hover:underline"
-            >Pokepedia™</a
+            >Pokepedia&trade;</a
           >. All Rights Reserved.</span
         >
       </div>
@@ -58,5 +58,13 @@
 <script lang="ts">
 export default {
   name: 'Footer',
+  methods: {
+    displayCurrentYear(): number {
+      const currentDate: Date = new Date();
+      const currentYear: number = currentDate.getFullYear();
+
+      return currentYear;
+    },
+  },
 };
 </script>
