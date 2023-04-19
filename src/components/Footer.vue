@@ -56,16 +56,11 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'Footer',
-  methods: {
-    displayCurrentYear(): number {
-      const currentDate: Date = new Date();
-      const currentYear: number = currentDate.getFullYear();
+<script lang="ts" setup>
+const displayCurrentYear = (): number => {
+  const currentDate: Date = new Date();
+  const currentYear: number = currentDate.getFullYear();
 
-      return currentYear;
-    },
-  },
+  return currentYear;
 };
 </script>

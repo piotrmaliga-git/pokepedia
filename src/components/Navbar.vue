@@ -142,16 +142,8 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import Hero from './Hero.vue';
 
 import { Icon } from '@iconify/vue';
-
-export default {
-  name: 'Navbar',
-  components: {
-    Hero,
-    Icon,
-  },
-};
 </script>

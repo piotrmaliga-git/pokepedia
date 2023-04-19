@@ -136,13 +136,6 @@
   </section>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import { Icon } from '@iconify/vue';
-
-export default {
-  name: 'Fqa',
-  components: {
-    Icon,
-  },
-};
 </script>
