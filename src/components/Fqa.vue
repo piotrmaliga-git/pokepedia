@@ -138,4 +138,11 @@
 
 <script lang="ts" setup>
 import { Icon } from '@iconify/vue';
+
+import { onMounted } from 'vue';
+import { initFlowbite } from 'flowbite';
+
+onMounted(() => {
+  initFlowbite();
+});
 </script>
