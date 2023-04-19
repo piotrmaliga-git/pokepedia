@@ -2,9 +2,7 @@
   <section>
     <div
       class="mx-auto flex h-screen max-w-full flex-col items-center justify-center bg-hero-image bg-cover bg-fixed bg-no-repeat px-6 py-8 lg:py-0">
-      <a
-        href="/"
-        class="flex items-center">
+      <a class="flex items-center">
         <img
           src="../assets/images/logo/Pokepedia.png"
           class="mr-3 h-20"
@@ -28,7 +26,7 @@
                 type="email"
                 name="email"
                 id="email"
-                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-600 focus:ring-blue-600 sm:text-sm"
+                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
                 placeholder="mail@example.com"
                 required="true" />
             </div>
@@ -43,7 +41,7 @@
                 name="password"
                 id="password"
                 placeholder="••••••••"
-                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-600 focus:ring-blue-600 sm:text-sm"
+                class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
                 required="true" />
             </div>
             <div class="flex items-center justify-between">
@@ -53,7 +51,7 @@
                     id="remember"
                     aria-describedby="remember"
                     type="checkbox"
-                    class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-800"
+                    class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600"
                     required="true" />
                 </div>
                 <div class="ml-3 text-sm">
@@ -66,20 +64,20 @@
               </div>
               <a
                 href="#"
-                class="text-sm font-medium text-red-800 hover:underline"
+                class="text-sm font-medium text-red-600 hover:underline"
                 >Forgot password?</a
               >
             </div>
             <button
               type="submit"
-              class="w-full rounded-lg bg-red-800 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-red-900 focus:outline-none focus:ring-4 focus:ring-red-300">
+              class="w-full rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-red-700">
               Sign in
             </button>
             <p class="text-sm font-light text-gray-500">
               Don't have an account yet?
               <a
                 href="#"
-                class="font-medium text-red-800 hover:underline"
+                class="font-medium text-red-600 hover:underline"
                 >Sign up</a
               >
             </p>
