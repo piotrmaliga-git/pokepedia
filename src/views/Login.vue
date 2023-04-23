@@ -1,7 +1,7 @@
 <template>
   <section>
     <div
-      class="mx-auto flex h-screen max-w-full flex-col items-center justify-center bg-hero-image bg-cover bg-fixed bg-no-repeat px-6 py-8 lg:py-0">
+      class="flex h-screen w-full flex-col items-center justify-center bg-gray-100 px-6 py-8 lg:py-0">
       <a class="flex items-center">
         <img
           src="../assets/images/logo/Pokepedia.png"
