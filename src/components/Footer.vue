@@ -59,8 +59,7 @@
 <script lang="ts" setup>
 const displayCurrentYear = (): number => {
   const currentDate: Date = new Date();
-  const currentYear: number = currentDate.getFullYear();
 
-  return currentYear;
+  return currentDate.getFullYear();
 };
 </script>
