@@ -12,7 +12,7 @@
               alt="Pokepedia Logo" />
           </a>
           <div class="flex items-center lg:order-2">
-            <LangSwitcher />
+            <LangToggleDropdown />
             <button
               data-collapse-toggle="mobile-menu-language-select"
               type="button"
@@ -36,7 +36,7 @@
 </template>
 
 <script lang="ts" setup>
-import LangSwitcher from './LangSwitcher.vue';
+import LangToggleDropdown from './LangToggleDropdown.vue';
 import NavbarLinks from './NavbarLinks.vue';
 import Hero from './Hero.vue';
 
