@@ -7,25 +7,26 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('@/views/Home.vue'),
-      meta: { title: 'Poképedia | Home' },
+      meta: { title: 'Home' },
     },
     {
       path: '/login',
       name: 'login',
       component: () => import('@/views/Login.vue'),
-      meta: { title: 'Poképedia | Login' },
+      meta: { title: 'Login' },
     },
     {
       path: '/:pathMatch(.*)*',
       name: '404',
       component: () => import('@/views/404.vue'),
-      meta: { title: 'Poképedia | Not Found' },
+      meta: { title: 'Not Found' },
     },
   ],
 });
 
-router.beforeEach(to => {
-  document.title = to.meta?.title ?? 'Poképedia';
+router.beforeEach((to, from, next) => {
+  document.title = to.meta?.title ? `Poképedia | ${to.meta?.title}` : 'Poképedia';
+  next();
 });
 
 export default router;
