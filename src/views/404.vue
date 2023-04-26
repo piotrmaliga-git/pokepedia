@@ -1,11 +1,16 @@
 <template>
-  <section class="bg-gray-100">
+  <section class="bg-background-light dark:bg-background-dark">
     <div
       class="mx-auto flex h-screen w-screen max-w-screen-xl items-center justify-center py-8 px-4 lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-sm text-center">
-        <h1 class="mb-4 text-7xl font-extrabold tracking-tight text-gray-300 lg:text-9xl">404</h1>
-        <p class="mb-4 text-3xl font-bold tracking-tight text-gray-900">Something's missing.</p>
-        <p class="mb-4 text-lg font-light text-gray-500">
+        <h1
+          class="mb-4 text-7xl font-extrabold tracking-tight text-gray-300 dark:text-gray-200 lg:text-9xl">
+          404
+        </h1>
+        <p class="mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Something's missing.
+        </p>
+        <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
           Sorry, we can't find that page. You'll find lots to explore on the home page.
         </p>
         <a
