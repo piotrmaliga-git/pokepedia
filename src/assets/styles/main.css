@@ -7,3 +7,13 @@
     font-family: 'Rubik', sans-serif;
   }
 }
+
+@layer components {
+  .theme-toggle-btn-dark {
+    @apply bg-violet-600 text-white hover:bg-violet-700;
+  }
+
+  .theme-toggle-btn-light {
+    @apply bg-yellow-400 text-stone-900 hover:bg-yellow-500;
+  }
+}
