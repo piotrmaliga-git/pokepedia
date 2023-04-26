@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-gray-100">
+  <section class="bg-background-light dark:bg-background-dark">
     <div
       class="mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-      <div class="font-light text-gray-500 sm:text-lg">
-        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">
+      <div class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
+        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
           Witae itaque excepturi dignissimos quidem esse
         </h2>
         <p class="mb-4">
@@ -43,8 +43,8 @@
           alt="office content 1" />
       </div>
 
-      <div class="mt-8 font-light text-gray-500 sm:text-lg">
-        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">
+      <div class="mt-8 font-light text-gray-500 dark:text-gray-400 sm:text-lg">
+        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
           Lorem ipsum dolor sit amet consectetur?
         </h2>
         <p class="mb-4">
