@@ -8,6 +8,12 @@ module.exports = {
       fontFamily: {
         rubik: ['Rubik', 'sans-serif'],
       },
+      colors: {
+        background: {
+          light: '#f3f4f6',
+          dark: '#111827',
+        },
+      },
       backgroundImage: {
         'hero-image': "url('/src/assets/images/hero-image/hero-image.jpg')",
       },
