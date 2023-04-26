@@ -51,7 +51,7 @@
         <a
           href="#"
           class="block py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600"
-          >FQA</a
+          >FAQ</a
         >
       </li>
     </ul>

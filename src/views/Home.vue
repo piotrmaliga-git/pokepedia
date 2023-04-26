@@ -2,7 +2,7 @@
   <Navbar />
   <About />
   <Contact />
-  <Fqa />
+  <Faq />
   <Footer />
 </template>
 
@@ -10,6 +10,6 @@
 import Navbar from '@/components/Navbar.vue';
 import About from '@/components/About.vue';
 import Contact from '@/components/Contact.vue';
-import Fqa from '@/components/Fqa.vue';
+import Faq from '@/components/Faq.vue';
 import Footer from '@/components/Footer.vue';
 </script>
