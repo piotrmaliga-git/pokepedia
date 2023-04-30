@@ -13,7 +13,7 @@
   </button>
   <!-- Dropdown -->
   <div
-    class="z-50 my-4 hidden list-none divide-y divide-gray-100 rounded-lg bg-gray-100 text-base shadow"
+    class="z-50 my-4 hidden list-none divide-y divide-gray-100 rounded-lg bg-gray-100 text-base shadow dark:bg-gray-700"
     id="language-dropdown-menu">
     <ul
       class="py-2 font-medium"
@@ -21,7 +21,7 @@
       <li>
         <a
           href="#"
-          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200"
+          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
           role="menuitem">
           <div class="inline-flex items-center">
             <Icon
@@ -37,7 +37,7 @@
       <li>
         <a
           href="#"
-          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200"
+          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
           role="menuitem">
           <div class="inline-flex items-center">
             <Icon
