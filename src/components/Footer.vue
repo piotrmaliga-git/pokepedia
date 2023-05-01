@@ -22,11 +22,13 @@
           <AboutModal />
           <li>
             <a
-              href="#"
               class="mr-4 hover:underline md:mr-6"
+              data-modal-target="policy-modal"
+              data-modal-toggle="policy-modal"
               >Privacy Policy</a
             >
           </li>
+          <PolicyModal />
           <li>
             <a
               href="#"
@@ -58,6 +60,7 @@
 
 <script lang="ts" setup>
 import AboutModal from './Modals/AboutModal.vue';
+import PolicyModal from './Modals/PolicyModal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
