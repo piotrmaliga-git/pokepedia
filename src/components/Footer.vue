@@ -13,11 +13,13 @@
         <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-white sm:mb-0">
           <li>
             <a
-              href="#"
               class="mr-4 hover:underline md:mr-6"
+              data-modal-target="about-modal"
+              data-modal-toggle="about-modal"
               >About</a
             >
           </li>
+          <AboutModal />
           <li>
             <a
               href="#"
@@ -55,6 +57,15 @@
 </template>
 
 <script lang="ts" setup>
+import AboutModal from './Modals/AboutModal.vue';
+
+import { onMounted } from 'vue';
+import { initFlowbite } from 'flowbite';
+
+onMounted(() => {
+  initFlowbite();
+});
+
 const displayCurrentYear = (): number => {
   const currentDate: Date = new Date();
 
