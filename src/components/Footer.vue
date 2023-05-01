@@ -31,11 +31,13 @@
           <PolicyModal />
           <li>
             <a
-              href="#"
               class="mr-4 hover:underline md:mr-6"
+              data-modal-target="license-modal"
+              data-modal-toggle="license-modal"
               >Licensing</a
             >
           </li>
+          <LicenseModal />
           <li>
             <a
               href="#"
@@ -61,6 +63,7 @@
 <script lang="ts" setup>
 import AboutModal from './Modals/AboutModal.vue';
 import PolicyModal from './Modals/PolicyModal.vue';
+import LicenseModal from './Modals/LicenseModal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
