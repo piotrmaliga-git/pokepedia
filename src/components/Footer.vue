@@ -40,11 +40,13 @@
           <LicenseModal />
           <li>
             <a
-              href="#"
               class="hover:underline"
+              data-modal-target="contact-modal"
+              data-modal-toggle="contact-modal"
               >Contact</a
             >
           </li>
+          <ContactModal />
         </ul>
       </div>
       <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
@@ -64,6 +66,7 @@
 import AboutModal from './Modals/AboutModal.vue';
 import PolicyModal from './Modals/PolicyModal.vue';
 import LicenseModal from './Modals/LicenseModal.vue';
+import ContactModal from './Modals/ContactModal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
