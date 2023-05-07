@@ -14,14 +14,14 @@
       </li>
       <li>
         <a
-          href="#"
+          href="#about"
           class="block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600 dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600"
           >About</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#pokedex"
           class="block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600 dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600"
           >Pokédex</a
         >
@@ -42,14 +42,14 @@
       </li>
       <li>
         <a
-          href="#"
+          href="#contact"
           class="block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600 dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600"
           >Contact</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#faq"
           class="block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600 dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600"
           >FAQ</a
         >
