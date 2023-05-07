@@ -36,7 +36,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import ThemeToggleButton from './ThemeToggleButton.vue';
 import LangToggleDropdown from './LangToggleDropdown.vue';
 import NavbarLinks from './NavbarLinks.vue';

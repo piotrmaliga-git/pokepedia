@@ -62,7 +62,7 @@
   </footer>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import AboutModal from './Modals/AboutModal.vue';
 import PolicyModal from './Modals/PolicyModal.vue';
 import LicenseModal from './Modals/LicenseModal.vue';

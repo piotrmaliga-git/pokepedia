@@ -78,6 +78,6 @@
   </section>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import PokemonList from './PokemonList.vue';
 </script>

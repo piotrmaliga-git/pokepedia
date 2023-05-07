@@ -39,6 +39,6 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import { Icon } from '@iconify/vue';
 </script>
