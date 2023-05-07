@@ -51,7 +51,7 @@
       </div>
       <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
       <span class="block text-sm text-white sm:text-center"
-        >&copy; {{ displayCurrentYear() }}
+        >&copy; {{ currentYear }}
         <a
           href="/"
           class="hover:underline"
@@ -70,14 +70,11 @@ import ContactModal from './Modals/ContactModal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
+import { useNow, useDateFormat } from '@vueuse/core';
 
 onMounted(() => {
   initFlowbite();
 });
 
-const displayCurrentYear = (): number => {
-  const currentDate: Date = new Date();
-
-  return currentDate.getFullYear();
-};
+const currentYear = useDateFormat(useNow(), 'YYYY');
 </script>
