@@ -6,130 +6,169 @@
         Frequently asked questions
       </h2>
       <div
-        id="accordion-collapse"
-        data-accordion="collapse">
-        <h2 id="accordion-collapse-heading-1">
+        id="accordion-flush"
+        data-accordion="collapse"
+        data-active-classes="bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
+        data-inactive-classes="text-gray-500 dark:text-gray-400">
+        <h2 id="accordion-flush-heading-1">
           <button
             type="button"
-            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 focus:text-black dark:text-gray-400 dark:hover:bg-gray-800"
-            data-accordion-target="#accordion-collapse-body-1"
+            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-flush-body-1"
             aria-expanded="true"
-            aria-controls="accordion-collapse-body-1">
+            aria-controls="accordion-flush-body-1">
             <span>Eos facere omnis magni doloremque, alias repellat quaerat ?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
-              height="24" />
+              height="24"
+              class="shrink-0 rotate-180"
+              data-accordion-icon />
           </button>
         </h2>
         <div
-          id="accordion-collapse-body-1"
+          id="accordion-flush-body-1"
           class="hidden"
-          aria-labelledby="accordion-collapse-heading-1">
-          <div class="border-b border-gray-200 p-5">
+          aria-labelledby="accordion-flush-heading-1">
+          <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis
-              asperiores blanditiis sed id optio voluptas sapiente officiis neque ducimus aliquid
-              minima ipsam molestias voluptates dolorem, mollitia maxime. Fugit, nam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore adipisci
+              deleniti tempore velit placeat architecto.
             </p>
             <p class="text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repellat ut quidem
-              sunt earum nisi aut accusantium!
+              Nemo ut aliquid quibusdam et quisquam quae
               <a
                 href="/docs/getting-started/introduction/"
-                class="text-blue-600 hover:underline"
-                >get started</a
+                class="text-blue-600 hover:underline dark:text-blue-500"
+                >link</a
               >
-              obcaecati laboriosam accusantium in ullam, adipisicing elit
+              tempore velit placeat architecto nemo ut aliquid quibusdam, iste amet.
             </p>
           </div>
         </div>
-        <h2 id="accordion-collapse-heading-2">
+        <h2 id="accordion-flush-heading-2">
           <button
             type="button"
-            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 focus:text-black dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-            data-accordion-target="#accordion-collapse-body-2"
+            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-flush-body-2"
             aria-expanded="false"
-            aria-controls="accordion-collapse-body-2">
+            aria-controls="accordion-flush-body-2">
             <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit ?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
-              height="24" />
+              height="24"
+              class="shrink-0"
+              data-accordion-icon />
           </button>
         </h2>
         <div
-          id="accordion-collapse-body-2"
+          id="accordion-flush-body-2"
           class="hidden"
-          aria-labelledby="accordion-collapse-heading-2">
-          <div class="border-b border-gray-200 p-5">
+          aria-labelledby="accordion-flush-heading-2">
+          <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, omnis! Sed animi amet
-              iure eius explicabo at officiis, obcaecati laboriosam accusantium in ullam ex dolor
-              sequi enim reprehenderit cumque debitis!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum distinctio,
+              suscipit illum facilis, dolorem unde cum earum quia vel qui placeat inventore
+              doloribus, tempore hic voluptatibus a est similique.
             </p>
             <p class="text-gray-500 dark:text-gray-400">
-              Check out the
+              Ipsum dolor sit amet consectetur, adipisicing elit. Id ad distinctio ducimus totam
+              quasi commodi blanditiis.
+
               <a
-                href="https://flowbite.com/figma/"
-                class="text-blue-600 hover:underline"
-                >Figma design system</a
+                href="#"
+                class="text-blue-600 hover:underline dark:text-blue-500"
+                >link</a
               >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, pariatur omnis
-              earum id, minima tenetur recusandae ex sunt similique et ab, error dicta excepturi
-              ipsam voluptatum ipsum hic quisquam. Error!
+              Libero facere nam cumque, quo voluptatum sunt sed! Magnam, est! Obcaecati ad aperiam
+              tempore vel, ipsam voluptatibus sed hic quaerat.
             </p>
           </div>
         </div>
-        <h2 id="accordion-collapse-heading-3">
+        <h2 id="accordion-flush-heading-3">
           <button
             type="button"
-            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 focus:text-black dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-            data-accordion-target="#accordion-collapse-body-3"
+            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-flush-body-3"
             aria-expanded="false"
-            aria-controls="accordion-collapse-body-3">
+            aria-controls="accordion-flush-body-3">
             <span>Labore tempora, perspiciatis fuga ?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
-              height="24" />
+              height="24"
+              class="shrink-0"
+              data-accordion-icon />
           </button>
         </h2>
         <div
-          id="accordion-collapse-body-3"
+          id="accordion-flush-body-3"
           class="hidden"
-          aria-labelledby="accordion-collapse-heading-3">
-          <div class="border-b border-gray-200 p-5">
+          aria-labelledby="accordion-flush-heading-3">
+          <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laborum eaque, nisi
-              assumenda iure fugiat earum error possimus numquam hic, tenetur labore! Labore
-              corrupti veritatis, a quia amet earum itaque?Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Libero necessitatibus nemo facere illum, totam veritatis sunt
-              aspernatur enim cupiditate quia eos voluptatum soluta provident, aliquid quae minima
-              incidunt? Ipsa, neque?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi sed aut
+              iure sint assumenda quaerat expedita doloremque cupiditate dignissimos? Voluptates
+              doloremque quo dolore quas ad autem veniam optio eaque.
             </p>
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit voluptates
-              laborum enim. Delectus nostrum eum illum eveniet voluptatem placeat error?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ex eveniet, doloribus
+              cum provident voluptates! Eius, sint sit tenetur praesentium eum natus.
             </p>
-            <p class="mb-2 text-gray-500">Libero necessitatibus nemo facere illum:</p>
-            <ul class="list-disc pl-5 text-gray-500">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              However, we actually recommend using both Flowbite:
+            </p>
+            <ul class="list-disc pl-5 text-gray-500 dark:text-gray-400">
               <li>
                 <a
-                  href="https://flowbite.com/pro/"
-                  class="text-blue-600 hover:underline"
+                  href="#"
+                  class="text-blue-600 hover:underline dark:text-blue-500"
                   >link 1</a
                 >
               </li>
               <li>
                 <a
-                  href="https://tailwindui.com/"
+                  href="#"
                   rel="nofollow"
-                  class="text-blue-600 hover:underline"
+                  class="text-blue-600 hover:underline dark:text-blue-500"
                   >link 2</a
                 >
               </li>
             </ul>
+          </div>
+        </div>
+        <h2 id="accordion-flush-heading-4">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between rounded-md border-b border-gray-200 p-5 text-left font-medium text-gray-500 hover:bg-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-flush-body-4"
+            aria-expanded="false"
+            aria-controls="accordion-flush-body-4">
+            <span>Sit amet, consectetur adipisicing elit. Consectetur iure, libero ?</span>
+            <Icon
+              icon="mdi:chevron-down"
+              width="24"
+              height="24"
+              class="shrink-0"
+              data-accordion-icon />
+          </button>
+        </h2>
+        <div
+          id="accordion-flush-body-4"
+          class="hidden"
+          aria-labelledby="accordion-flush-heading-4">
+          <div class="border-b border-gray-200 p-5 dark:border-gray-700">
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quo amet quibusdam
+              doloribus asperiores id laudantium, fugiat provident magni et excepturi consequuntur
+              beatae itaque odio aliquid illum rerum recusandae soluta!
+            </p>
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam exercitationem
+              id! Magni voluptatibus sapiente ex ratione minima rerum, quia animi doloremque
+              deleniti quam cumque quos totam quas aspernatur illo.
+            </p>
           </div>
         </div>
       </div>
