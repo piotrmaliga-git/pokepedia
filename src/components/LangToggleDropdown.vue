@@ -2,7 +2,7 @@
   <button
     type="button"
     data-dropdown-toggle="language-dropdown-menu"
-    class="inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-red-600">
+    class="mr-2 inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-red-600">
     <Icon
       icon="emojione:flag-for-united-states"
       width="22"

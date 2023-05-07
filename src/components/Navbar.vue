@@ -14,10 +14,17 @@
           <div class="flex items-center lg:order-2">
             <ThemeToggleButton />
             <LangToggleDropdown />
+            <router-link to="/login">
+              <button
+                type="button"
+                class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white">
+                Log in
+              </button>
+            </router-link>
             <button
               data-collapse-toggle="mobile-menu-language-select"
               type="button"
-              class="ml-1 inline-flex items-center rounded-lg p-2 text-sm text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2  focus:ring-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 lg:hidden"
+              class="ml-1 inline-flex items-center rounded-lg p-2 text-sm text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 lg:hidden"
               aria-controls="mobile-menu-language-select"
               aria-expanded="false">
               <span class="sr-only">Open main menu</span>
