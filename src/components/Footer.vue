@@ -3,7 +3,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <a
-          href="/"
+          href="/404"
           class="mb-4 flex items-center sm:mb-0">
           <img
             src="../assets/images/logo/Pokepedia.png"
