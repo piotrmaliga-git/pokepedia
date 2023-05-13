@@ -10,10 +10,10 @@ const router = createRouter({
       meta: { title: 'Home' },
     },
     {
-      path: '/login',
-      name: 'login',
-      component: () => import('@/views/Login.vue'),
-      meta: { title: 'Login' },
+      path: '/signin',
+      name: 'signin',
+      component: () => import('@/views/SignIn.vue'),
+      meta: { title: 'Sign in' },
     },
     {
       path: '/:pathMatch(.*)*',
