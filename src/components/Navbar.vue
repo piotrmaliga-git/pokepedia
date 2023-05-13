@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen max-w-full bg-hero-image bg-cover bg-fixed bg-center bg-no-repeat">
+  <div class="h-screen max-w-full bg-hero bg-cover bg-fixed bg-center bg-no-repeat">
     <div class="h-screen max-w-full bg-black/60">
       <nav class="absolute z-50 w-full">
         <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
