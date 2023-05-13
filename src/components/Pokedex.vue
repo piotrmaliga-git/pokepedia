@@ -1,7 +1,5 @@
 <template>
-  <section
-    id="pokedex"
-    class="bg-background-light dark:bg-background-dark">
+  <section id="pokedex">
     <div class="mx-auto max-w-screen-md py-4 px-4 lg:py-6">
       <h2
         class="mb-4 text-center text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">

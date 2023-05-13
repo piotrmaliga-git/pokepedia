@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <main class="relative bg-background-light dark:bg-background-dark">
+  <main class="relative bg-theme-light dark:bg-theme-dark">
     <About />
     <Pokedex />
     <Contact />

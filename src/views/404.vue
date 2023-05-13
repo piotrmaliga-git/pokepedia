@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-background-light dark:bg-background-dark">
+  <section class="bg-theme-light dark:bg-theme-dark">
     <div
       class="mx-auto flex h-screen w-screen max-w-screen-xl items-center justify-center py-8 px-4 lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-sm text-center">

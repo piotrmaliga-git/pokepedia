@@ -1,7 +1,5 @@
 <template>
-  <section
-    id="about"
-    class="bg-background-light dark:bg-background-dark">
+  <section id="about">
     <div
       class="mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
       <div class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
