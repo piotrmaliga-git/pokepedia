@@ -34,7 +34,7 @@
       </div>
       <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
         <img
-          src="@/assets/images/hero-image/snorlax.png"
+          src="@/assets/images/snorlax.png"
           alt="mockup" />
       </div>
     </div>
