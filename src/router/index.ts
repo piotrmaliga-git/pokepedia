@@ -16,6 +16,12 @@ const router = createRouter({
       meta: { title: 'Sign in' },
     },
     {
+      path: '/signup',
+      name: 'signup',
+      component: () => import('@/views/SignUp.vue'),
+      meta: { title: 'Sign up' },
+    },
+    {
       path: '/:pathMatch(.*)*',
       name: '404',
       component: () => import('@/views/404.vue'),
