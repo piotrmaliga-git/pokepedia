@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="h-screen max-w-full bg-login-image bg-cover bg-fixed bg-center bg-no-repeat">
+    <div class="h-screen max-w-full bg-auth bg-cover bg-fixed bg-center bg-no-repeat">
       <div class="h-screen max-w-full bg-black/60">
         <div class="flex h-screen w-full flex-col items-center justify-center px-6 py-8 lg:py-0">
           <a class="flex items-center">
