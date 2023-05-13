@@ -65,11 +65,9 @@
       </button>
       <p class="text-sm font-light text-gray-500">
         Don't have an account yet?
-        <a
-          href="#"
-          class="font-medium text-red-600 hover:underline"
-          >Sign up</a
-        >
+        <router-link to="/signup">
+          <a class="font-medium text-red-600 hover:underline">Sign up</a>
+        </router-link>
       </p>
     </form>
   </div>
