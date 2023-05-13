@@ -13,7 +13,7 @@
         <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-white sm:mb-0">
           <li>
             <a
-              class="mr-4 hover:underline md:mr-6"
+              class="mr-4 cursor-pointer hover:underline md:mr-6"
               data-modal-target="about-modal"
               data-modal-toggle="about-modal"
               >About</a
@@ -22,7 +22,7 @@
           <AboutModal />
           <li>
             <a
-              class="mr-4 hover:underline md:mr-6"
+              class="mr-4 cursor-pointer hover:underline md:mr-6"
               data-modal-target="policy-modal"
               data-modal-toggle="policy-modal"
               >Privacy Policy</a
@@ -31,7 +31,7 @@
           <PolicyModal />
           <li>
             <a
-              class="mr-4 hover:underline md:mr-6"
+              class="mr-4 cursor-pointer hover:underline md:mr-6"
               data-modal-target="license-modal"
               data-modal-toggle="license-modal"
               >Licensing</a
@@ -40,7 +40,7 @@
           <LicenseModal />
           <li>
             <a
-              class="hover:underline"
+              class="cursor-pointer hover:underline"
               data-modal-target="contact-modal"
               data-modal-toggle="contact-modal"
               >Contact</a
