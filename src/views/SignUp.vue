@@ -10,7 +10,12 @@
               alt="Pokepedia Logo" />
           </a>
           <div class="w-full rounded-lg bg-white shadow sm:max-w-md md:mt-0 xl:p-0">
-            <SignUpForm />
+            <div class="space-y-4 p-6 sm:p-8 md:space-y-6">
+              <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
+                Create and account
+              </h1>
+              <SignUpForm />
+            </div>
           </div>
         </div>
       </div>
