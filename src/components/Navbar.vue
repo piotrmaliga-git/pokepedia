@@ -17,14 +17,14 @@
             <router-link to="/signin">
               <button
                 type="button"
-                class="mr-2 inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white">
+                class="btn mr-2 px-4 py-2">
                 Sign in
               </button>
             </router-link>
             <router-link to="/signup">
               <button
                 type="button"
-                class="mr-2 inline-flex cursor-pointer items-center justify-center rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white">
+                class="btn btn--red mr-2 px-4 py-2">
                 Sign up
               </button>
             </router-link>
