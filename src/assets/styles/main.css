@@ -10,12 +10,20 @@
 }
 
 @layer components {
-  .theme-toggle-btn-dark {
-    @apply bg-violet-600 text-white hover:bg-violet-700;
+  .navbar-link {
+    @apply block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600;
+  }
+
+  .navbar-link--dark {
+    @apply dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600;
   }
 
   .theme-toggle-btn-light {
     @apply bg-yellow-400 text-stone-900 hover:bg-yellow-500;
+  }
+
+  .theme-toggle-btn-dark {
+    @apply bg-violet-600 text-white hover:bg-violet-700;
   }
 }
 
