@@ -51,8 +51,8 @@
 </template>
 
 <script setup lang="ts">
-import ThemeToggleButton from './ThemeToggleButton.vue';
-import LangToggleDropdown from './LangToggleDropdown.vue';
+import ThemeToggleButton from './Buttons/ThemeToggleButton.vue';
+import LangToggleDropdown from './Buttons/LangToggleButton.vue';
 import NavbarLinks from './NavbarLinks.vue';
 import Hero from './Hero.vue';
 

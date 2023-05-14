@@ -16,6 +16,6 @@ import About from '@/components/About.vue';
 import Pokedex from '@/components/Pokedex.vue';
 import Contact from '@/components/Contact.vue';
 import Faq from '@/components/Faq.vue';
-import ScrollToTopButton from '@/components/ScrollToTopButton.vue';
+import ScrollToTopButton from '@/components/Buttons/ScrollToTopButton.vue';
 import Footer from '@/components/Footer.vue';
 </script>
