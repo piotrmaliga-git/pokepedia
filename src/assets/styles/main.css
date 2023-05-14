@@ -18,11 +18,11 @@
     @apply dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600;
   }
 
-  .theme-toggle-btn-light {
+  .theme-btn {
     @apply bg-yellow-400 text-stone-900 hover:bg-yellow-500;
   }
 
-  .theme-toggle-btn-dark {
+  .theme-btn--dark {
     @apply bg-violet-600 text-white hover:bg-violet-700;
   }
 }
