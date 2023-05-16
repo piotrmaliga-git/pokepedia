@@ -1,14 +1,16 @@
 <template>
-  <button
-    v-if="y > 1000"
-    @click="scrollToTop"
-    type="button"
-    class="sticky bottom-10 left-10 ml-10 mb-10 cursor-pointer rounded-full bg-red-600 p-4 text-sm font-medium text-white">
-    <Icon
-      icon="material-symbols:arrow-upward"
-      width="26"
-      height="26" />
-  </button>
+  <div class="sticky bottom-0 right-0 flex justify-end">
+    <button
+      v-if="y > 1000"
+      @click="scrollToTop"
+      type="button"
+      class="mb-10 mr-10 cursor-pointer rounded-full bg-red-600 p-4 text-sm font-medium text-white">
+      <Icon
+        icon="material-symbols:arrow-upward"
+        width="26"
+        height="26" />
+    </button>
+  </div>
 </template>
 
 <script setup lang="ts">
