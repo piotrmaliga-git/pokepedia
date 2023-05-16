@@ -6,7 +6,7 @@
           href="/404"
           class="mb-4 flex items-center sm:mb-0">
           <img
-            src="../assets/images/logo/Pokepedia.png"
+            src="../../assets/images/logo/Pokepedia.png"
             class="mr-3 h-12"
             alt="Pokepedia Logo" />
         </a>
@@ -63,10 +63,10 @@
 </template>
 
 <script setup lang="ts">
-import AboutModal from './Modals/AboutModal.vue';
-import PolicyModal from './Modals/PolicyModal.vue';
-import LicenseModal from './Modals/LicenseModal.vue';
-import ContactModal from './Modals/ContactModal.vue';
+import AboutModal from '../Modals/AboutModal.vue';
+import PolicyModal from '../Modals/PolicyModal.vue';
+import LicenseModal from '../Modals/LicenseModal.vue';
+import ContactModal from '../Modals/ContactModal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';

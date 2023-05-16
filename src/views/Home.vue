@@ -17,5 +17,5 @@ import Pokedex from '@/components/Pokedex.vue';
 import Contact from '@/components/Contact.vue';
 import Faq from '@/components/Faq.vue';
 import ScrollToTopButton from '@/components/Buttons/ScrollToTopButton.vue';
-import Footer from '@/components/Footer.vue';
+import Footer from '@/components/Footer/Footer.vue';
 </script>
