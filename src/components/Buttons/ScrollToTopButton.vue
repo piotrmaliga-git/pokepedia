@@ -4,7 +4,7 @@
       v-if="y > 1000"
       @click="scrollToTop"
       type="button"
-      class="mb-10 mr-10 cursor-pointer rounded-full bg-red-600 p-4 text-sm font-medium text-white">
+      class="mb-10 mr-10 cursor-pointer rounded-full bg-red-600 p-4 text-sm font-medium text-white hover:border hover:border-red-600 hover:bg-white hover:text-red-600">
       <Icon
         icon="material-symbols:arrow-upward"
         width="26"
