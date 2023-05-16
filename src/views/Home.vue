@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <Header />
   <main class="relative bg-theme-light dark:bg-theme-dark">
     <About />
     <Pokedex />
@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import Navbar from '@/components/Navbar.vue';
+import Header from '@/components/Header/Header.vue';
 import About from '@/components/About/About.vue';
 import Pokedex from '@/components/Pokedex/Pokedex.vue';
 import Contact from '@/components/Contact/Contact.vue';
