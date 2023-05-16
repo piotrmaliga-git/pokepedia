@@ -12,7 +12,7 @@
 
 <script lang="ts" setup>
 import Navbar from '@/components/Navbar.vue';
-import About from '@/components/About.vue';
+import About from '@/components/About/About.vue';
 import Pokedex from '@/components/Pokedex.vue';
 import Contact from '@/components/Contact.vue';
 import Faq from '@/components/Faq.vue';
