@@ -13,11 +13,11 @@
 
 @layer components {
   .navbar-link {
-    @apply block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 lg:p-0 lg:text-white lg:hover:scale-105 lg:hover:bg-transparent lg:hover:text-red-600;
+    @apply block rounded py-2 pl-3 pr-48 text-gray-700 hover:bg-gray-200 xl:p-0 xl:text-white xl:hover:scale-105 xl:hover:bg-transparent xl:hover:text-red-600;
   }
 
   .navbar-link--dark {
-    @apply dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:lg:text-white dark:lg:hover:bg-transparent dark:lg:hover:text-red-600;
+    @apply dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:xl:text-white dark:xl:hover:bg-transparent dark:xl:hover:text-red-600;
   }
 
   .btn {

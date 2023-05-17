@@ -1,9 +1,9 @@
 <template>
   <div
-    class="hidden w-full items-center justify-between lg:order-1 lg:flex lg:w-auto"
+    class="hidden w-full items-center justify-between xl:order-1 xl:flex xl:w-auto"
     id="mobile-menu-language-select">
     <ul
-      class="mt-4 flex flex-col rounded-lg bg-gray-100 p-4 font-medium dark:bg-gray-700 lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-transparent lg:p-0 dark:lg:bg-transparent">
+      class="mt-4 flex flex-col rounded-lg bg-gray-100 p-4 font-medium dark:bg-gray-700 xl:mt-0 xl:flex-row xl:space-x-8 xl:border-0 xl:bg-transparent xl:p-0 dark:xl:bg-transparent">
       <li>
         <a
           href="#about"
@@ -48,7 +48,7 @@
       </li>
       <router-link
         to="/signin"
-        class="lg:hidden">
+        class="xl:hidden">
         <button
           type="button"
           class="btn my-4 mr-2 w-full border-2 border-gray-500 py-2 text-gray-500">
@@ -57,7 +57,7 @@
       </router-link>
       <router-link
         to="/signup"
-        class="lg:hidden">
+        class="xl:hidden">
         <button
           type="button"
           class="btn btn--red mr-2 w-full py-2">
