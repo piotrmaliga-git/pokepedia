@@ -46,6 +46,24 @@
           >FAQ</a
         >
       </li>
+      <router-link
+        to="/signin"
+        class="lg:hidden">
+        <button
+          type="button"
+          class="btn my-4 mr-2 w-full border-2 border-gray-500 py-2 text-gray-500">
+          Sign in
+        </button>
+      </router-link>
+      <router-link
+        to="/signup"
+        class="lg:hidden">
+        <button
+          type="button"
+          class="btn btn--red mr-2 w-full py-2">
+          Sign up
+        </button>
+      </router-link>
     </ul>
   </div>
 </template>
