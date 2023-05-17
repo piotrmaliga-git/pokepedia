@@ -1,14 +1,13 @@
 <template>
   <nav class="absolute z-50 w-full">
     <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-      <a
-        href="/"
+      <router-link
+        to="/home"
         class="flex items-center">
-        <img
+        <Image
           src="../../../assets/images/logo/Pokepedia.png"
-          class="mr-3 h-12"
           alt="Pokepedia Logo" />
-      </a>
+      </router-link>
       <div class="flex items-center xl:order-2">
         <ThemeToggleButton />
         <LangToggleDropdown />
@@ -53,6 +52,7 @@
 import ThemeToggleButton from './ThemeToggleButton.vue';
 import LangToggleDropdown from './LangToggleButton.vue';
 import NavbarLinks from './NavbarLinks.vue';
+import Image from '../../shared/Image/Image.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
