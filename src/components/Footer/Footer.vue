@@ -2,14 +2,14 @@
   <footer class="bg-red-600">
     <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
-        <a
-          href="/404"
+        <router-link
+          to="/home"
           class="mb-4 flex items-center sm:mb-0">
-          <img
-            src="../../assets/images/logo/Pokepedia.png"
+          <Image
             class="mr-3 h-12"
-            alt="Pokepedia Logo" />
-        </a>
+            alt="Pokepedia Logo"
+            src="src/assets/images/logo/Pokepedia.png" />
+        </router-link>
         <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-white sm:mb-0">
           <li>
             <a
@@ -67,6 +67,7 @@ import AboutModal from '../Modals/AboutModal.vue';
 import PolicyModal from '../Modals/PolicyModal.vue';
 import LicenseModal from '../Modals/LicenseModal.vue';
 import ContactModal from '../Modals/ContactModal.vue';
+import Image from '../shared/Image/Image.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
