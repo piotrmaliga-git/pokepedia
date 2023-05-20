@@ -5,8 +5,9 @@
         to="/home"
         class="flex items-center">
         <Image
-          src="../../../assets/images/logo/Pokepedia.png"
-          alt="Pokepedia Logo" />
+          class="mr-3 h-12"
+          alt="Pokepedia Logo"
+          src="src/assets/images/logo/Pokepedia.png" />
       </router-link>
       <div class="flex items-center xl:order-2">
         <ThemeToggleButton />

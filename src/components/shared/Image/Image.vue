@@ -1,9 +1,10 @@
 <template>
   <figure>
     <img
-      :src="src"
-      :alt="alt" />
-    <figcaption>{{ figcaption }}</figcaption>
+      :class="class"
+      :alt="alt"
+      :src="src" />
+    <figcaption v-if="figcaption">{{ figcaption }}</figcaption>
   </figure>
 </template>
 
@@ -11,8 +12,9 @@
 import { defineProps } from 'vue';
 
 interface Image {
-  src: string;
+  class: string;
   alt: string;
+  src: string;
   figcaption?: string | null;
 }
 
