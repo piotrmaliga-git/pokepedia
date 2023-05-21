@@ -2,7 +2,7 @@
   <nav class="absolute z-50 w-full">
     <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
       <router-link
-        to="/home"
+        to="/"
         class="flex items-center">
         <Image
           class="mr-3 h-12"

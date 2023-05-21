@@ -3,7 +3,7 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <router-link
-          to="/home"
+          to="/"
           class="mb-4 flex items-center sm:mb-0">
           <Image
             class="mr-3 h-12"
