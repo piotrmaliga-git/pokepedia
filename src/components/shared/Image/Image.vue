@@ -10,13 +10,7 @@
 
 <script setup lang="ts">
 import { defineProps } from 'vue';
+import type { ImageProps } from '../../types/interfaces/image';
 
-interface Image {
-  class: string;
-  alt: string;
-  src: string;
-  figcaption?: string | null;
-}
-
-const props = defineProps<Image>();
+defineProps<ImageProps>();
 </script>
