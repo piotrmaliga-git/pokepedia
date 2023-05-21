@@ -8,42 +8,42 @@
         <a
           href="#about"
           class="navbar-link navbar-link--dark"
-          >About</a
+          >{{ NavbarLinks.about }}</a
         >
       </li>
       <li>
         <a
           href="#pokedex"
           class="navbar-link navbar-link--dark"
-          >Pokédex</a
+          >{{ NavbarLinks.pokedex }}</a
         >
       </li>
       <li>
         <a
           href="#"
           class="navbar-link navbar-link--dark"
-          >Games & Apps</a
+          >{{ NavbarLinks.gamesAndApps }}</a
         >
       </li>
       <li>
         <a
           href="#"
           class="navbar-link navbar-link--dark"
-          >Trading Card Game</a
+          >{{ NavbarLinks.tradingCardGame }}</a
         >
       </li>
       <li>
         <a
           href="#contact"
           class="navbar-link navbar-link--dark"
-          >Contact</a
+          >{{ NavbarLinks.contact }}</a
         >
       </li>
       <li>
         <a
           href="#faq"
           class="navbar-link navbar-link--dark"
-          >FAQ</a
+          >{{ NavbarLinks.faq }}</a
         >
       </li>
       <router-link
@@ -68,4 +68,6 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { NavbarLinks } from '@/constants/header';
+</script>
