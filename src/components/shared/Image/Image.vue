@@ -9,7 +9,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
 import type { ImageProps } from '../../types/interfaces/image';
 
 defineProps<ImageProps>();
