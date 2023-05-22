@@ -19,7 +19,12 @@
               >About</a
             >
           </li>
-          <AboutModal />
+          <Modal
+            id="about-modal"
+            dataModalHide="about-modal"
+            tabindex="-1"
+            headingTitle="About"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum illo porro non quos. Quidem, excepturi molestias? Voluptate recusandae incidunt velit. Necessitatibus sit, quos nesciunt nemo delectus consequatur. Neque, perferendis." />
           <li>
             <a
               class="mr-4 cursor-pointer hover:underline md:mr-6"
@@ -28,7 +33,12 @@
               >Privacy Policy</a
             >
           </li>
-          <PolicyModal />
+           <Modal
+            id="policy-modal"
+            dataModalHide="policy-modal"
+            tabindex="-1"
+            headingTitle="Privacy Policy"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum illo porro non quos. Quidem, excepturi molestias? Voluptate recusandae incidunt velit. Necessitatibus sit, quos nesciunt nemo delectus consequatur. Neque, perferendis." />
           <li>
             <a
               class="mr-4 cursor-pointer hover:underline md:mr-6"
@@ -37,7 +47,12 @@
               >Licensing</a
             >
           </li>
-          <LicenseModal />
+           <Modal
+            id="license-modal"
+            dataModalHide="license-modal"
+            tabindex="-1"
+            headingTitle="Licensing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum illo porro non quos. Quidem, excepturi molestias? Voluptate recusandae incidunt velit. Necessitatibus sit, quos nesciunt nemo delectus consequatur. Neque, perferendis." />
           <li>
             <a
               class="cursor-pointer hover:underline"
@@ -46,7 +61,12 @@
               >Contact</a
             >
           </li>
-          <ContactModal />
+           <Modal
+            id="contact-modal"
+            dataModalHide="contact-modal"
+            tabindex="-1"
+            headingTitle="Contact"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum illo porro non quos. Quidem, excepturi molestias? Voluptate recusandae incidunt velit. Necessitatibus sit, quos nesciunt nemo delectus consequatur. Neque, perferendis." />
         </ul>
       </div>
       <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
@@ -63,11 +83,8 @@
 </template>
 
 <script setup lang="ts">
-import AboutModal from '../Modals/AboutModal.vue';
-import PolicyModal from '../Modals/PolicyModal.vue';
-import LicenseModal from '../Modals/LicenseModal.vue';
-import ContactModal from '../Modals/ContactModal.vue';
 import Image from '../shared/Image/Image.vue';
+import Modal from '../shared/Modal/Modal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
