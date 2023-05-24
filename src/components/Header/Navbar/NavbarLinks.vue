@@ -8,42 +8,42 @@
         <a
           href="#about"
           class="navbar-link navbar-link--dark"
-          >{{ NavbarLinks.about }}</a
+          >{{ $t("nav.about") }}</a
         >
       </li>
       <li>
         <a
           href="#pokedex"
           class="navbar-link navbar-link--dark"
-          >{{ NavbarLinks.pokedex }}</a
+          >{{ $t("nav.pokedex")}}</a
         >
       </li>
       <li>
         <a
           href="#"
           class="navbar-link navbar-link--dark"
-          >{{ NavbarLinks.gamesAndApps }}</a
+          >{{ $t("nav.gamesAndApps")}}</a
         >
       </li>
       <li>
         <a
           href="#"
           class="navbar-link navbar-link--dark"
-          >{{ NavbarLinks.tradingCardGame }}</a
+          >{{ $t("nav.tradingCardGame")}}</a
         >
       </li>
       <li>
         <a
           href="#contact"
           class="navbar-link navbar-link--dark"
-          >{{ NavbarLinks.contact }}</a
+          >{{ $t("nav.contact")}}</a
         >
       </li>
       <li>
         <a
           href="#faq"
           class="navbar-link navbar-link--dark"
-          >{{ NavbarLinks.faq }}</a
+          >{{ $t("nav.faq")}}</a
         >
       </li>
       <router-link
@@ -67,7 +67,3 @@
     </ul>
   </div>
 </template>
-
-<script setup lang="ts">
-import { NavbarLinks } from '@/constants/header';
-</script>
