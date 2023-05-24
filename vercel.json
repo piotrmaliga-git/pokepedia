@@ -1,5 +1,10 @@
 {
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/404.js" }],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/404.html"
+    }
+  ],
   "github": {
     "silent": true
   },
