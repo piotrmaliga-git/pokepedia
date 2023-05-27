@@ -72,10 +72,10 @@
       <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
       <span class="block text-sm text-white sm:text-center"
         >&copy; {{ currentYear }}
-        <a
-          href="/"
+        <router-link
+          to="/"
           class="hover:underline"
-          >Pokepedia&trade;</a
+          >Pokepedia&trade;</router-link
         >. All Rights Reserved.</span
       >
     </div>
