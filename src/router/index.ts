@@ -23,8 +23,8 @@ const router = createRouter({
     },
     {
       path: '/:pathMatch(.*)*',
-      name: '404',
-      component: () => import('@/views/404/404.vue'),
+      name: 'NotFound',
+      component: () => import('@/views/NotFound/NotFound.vue'),
       meta: { title: 'Not Found' },
     },
   ],
