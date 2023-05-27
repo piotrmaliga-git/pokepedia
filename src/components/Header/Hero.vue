@@ -1,7 +1,7 @@
 <template>
   <section>
     <div
-      class="absolute top-1/2 left-1/2 mx-auto grid w-full max-w-screen-xl -translate-x-1/2 -translate-y-1/2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
+      class="absolute left-1/2 top-1/2 mx-auto grid w-full max-w-screen-xl -translate-x-1/2 -translate-y-1/2 px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
           class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl xl:text-6xl">
@@ -16,7 +16,7 @@
           class="mr-3 inline-flex items-center justify-center rounded-lg bg-red-600 px-5 py-3 text-center text-base font-medium text-white hover:scale-105 hover:bg-red-700">
           Get started
           <svg
-            class="ml-2 -mr-1 h-5 w-5"
+            class="-mr-1 ml-2 h-5 w-5"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
@@ -40,5 +40,3 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts"></script>

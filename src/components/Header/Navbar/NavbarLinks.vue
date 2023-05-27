@@ -8,42 +8,42 @@
         <a
           href="#about"
           class="navbar-link navbar-link--dark"
-          >{{ $t("nav.about") }}</a
+          >{{ $t('nav.about') }}</a
         >
       </li>
       <li>
         <a
           href="#pokedex"
           class="navbar-link navbar-link--dark"
-          >{{ $t("nav.pokedex")}}</a
+          >{{ $t('nav.pokedex') }}</a
         >
       </li>
       <li>
         <a
           href="#"
           class="navbar-link navbar-link--dark"
-          >{{ $t("nav.gamesAndApps")}}</a
+          >{{ $t('nav.gamesAndApps') }}</a
         >
       </li>
       <li>
         <a
           href="#"
           class="navbar-link navbar-link--dark"
-          >{{ $t("nav.tradingCardGame")}}</a
+          >{{ $t('nav.tradingCardGame') }}</a
         >
       </li>
       <li>
         <a
           href="#contact"
           class="navbar-link navbar-link--dark"
-          >{{ $t("nav.contact")}}</a
+          >{{ $t('nav.contact') }}</a
         >
       </li>
       <li>
         <a
           href="#faq"
           class="navbar-link navbar-link--dark"
-          >{{ $t("nav.faq")}}</a
+          >{{ $t('nav.faq') }}</a
         >
       </li>
       <router-link

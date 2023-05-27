@@ -1,7 +1,7 @@
 <template>
   <section id="about">
     <div
-      class="mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      class="mx-auto max-w-screen-xl items-center gap-16 px-4 py-8 lg:grid lg:grid-cols-2 lg:px-6 lg:py-16">
       <div class="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
         <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
           Witae itaque excepturi dignissimos quidem esse
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div
-      class="mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 sm:py-2 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      class="mx-auto max-w-screen-xl items-center gap-16 px-4 py-8 sm:py-2 lg:grid lg:grid-cols-2 lg:px-6 lg:py-16">
       <div class="mt-8 grid grid-cols-2 gap-4">
         <img
           class="mt-4 w-full rounded-lg lg:mt-10"
@@ -63,5 +63,3 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts"></script>

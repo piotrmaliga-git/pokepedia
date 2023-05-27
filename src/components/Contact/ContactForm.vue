@@ -42,10 +42,8 @@
     </div>
     <button
       type="submit"
-      class="rounded-lg bg-red-600 py-3 px-5 text-center text-sm font-medium text-white hover:scale-105 hover:bg-red-700 sm:w-fit">
+      class="rounded-lg bg-red-600 px-5 py-3 text-center text-sm font-medium text-white hover:scale-105 hover:bg-red-700 sm:w-fit">
       Send message
     </button>
   </form>
 </template>
-
-<script setup lang="ts"></script>

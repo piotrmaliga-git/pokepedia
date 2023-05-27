@@ -1,6 +1,6 @@
 <template>
   <section id="faq">
-    <div class="mx-auto max-w-screen-md py-8 px-4 lg:py-16">
+    <div class="mx-auto max-w-screen-md px-4 py-8 lg:py-16">
       <h2
         class="mb-8 text-center text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:mb-16">
         Frequently asked questions

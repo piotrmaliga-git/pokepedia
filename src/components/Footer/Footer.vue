@@ -33,7 +33,7 @@
               >Privacy Policy</a
             >
           </li>
-           <Modal
+          <Modal
             id="policy-modal"
             dataModalHide="policy-modal"
             tabindex="-1"
@@ -47,7 +47,7 @@
               >Licensing</a
             >
           </li>
-           <Modal
+          <Modal
             id="license-modal"
             dataModalHide="license-modal"
             tabindex="-1"
@@ -61,7 +61,7 @@
               >Contact</a
             >
           </li>
-           <Modal
+          <Modal
             id="contact-modal"
             dataModalHide="contact-modal"
             tabindex="-1"
