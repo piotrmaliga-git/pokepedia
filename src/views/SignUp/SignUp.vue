@@ -24,6 +24,6 @@
 </template>
 
 <script lang="ts" setup>
-import SignUpForm from '@/components/Forms/SignUpForm.vue';
-import Image from '../components/shared/Image/Image.vue';
+import SignUpForm from './SignUpForm.vue';
+import Image from '@/components/shared/Image/Image.vue';
 </script>

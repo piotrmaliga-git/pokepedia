@@ -24,6 +24,6 @@
 </template>
 
 <script lang="ts" setup>
-import SignInForm from '@/components/Forms/SignInForm.vue';
-import Image from '../components/shared/Image/Image.vue';
+import SignInForm from './SignInForm.vue';
+import Image from '../../components/shared/Image/Image.vue';
 </script>
