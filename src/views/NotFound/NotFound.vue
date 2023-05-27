@@ -13,11 +13,12 @@
         <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
           Sorry, we can't find that page. You'll find lots to explore on the home page.
         </p>
-        <a
-          href="/"
+        <router-link to='/'>
+           <button
           class="my-4 inline-flex rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:scale-105 hover:bg-red-800"
-          >Back to Homepage</a
-        >
+          >Back to Homepage
+        </button>
+        </router-link>
       </div>
     </div>
   </section>

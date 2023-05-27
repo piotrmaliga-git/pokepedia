@@ -73,13 +73,11 @@
     </button>
     <p class="text-sm font-light text-gray-500">
       Already have an account?
-      <router-link to="/signin">
-        <a
-          href="#"
-          class="font-medium text-red-600 hover:underline"
-          >Login here</a
-        >
-      </router-link>
+      <router-link
+        to="/signin"
+        class="font-medium text-red-600 hover:underline"
+        >Login here</router-link
+      >
     </p>
   </form>
 </template>
