@@ -4,7 +4,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@shared/*": ["src/components/shared/*"],
+      "@interfaces/*": ["src/types/interfaces/*"],
+      "@views/*": ["src/views/*"]
     }
   },
 
