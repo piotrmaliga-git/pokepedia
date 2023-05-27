@@ -83,8 +83,8 @@
 </template>
 
 <script setup lang="ts">
-import Image from '../shared/Image/Image.vue';
-import Modal from '../shared/Modal/Modal.vue';
+import Image from '@shared/Image/Image.vue';
+import Modal from '@shared/Modal/Modal.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';

@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import type { ImageProps } from '../../../types/interfaces/image';
+import type { ImageProps } from '@interfaces/image';
 
 defineProps<ImageProps>();
 </script>

@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import type { ModalProps } from '../../../types/interfaces/modal';
+import type { ModalProps } from '@interfaces/modal';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';

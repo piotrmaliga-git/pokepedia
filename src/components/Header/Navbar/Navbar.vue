@@ -53,7 +53,7 @@
 import ThemeToggleButton from './ThemeToggleButton.vue';
 import LangToggleDropdown from './LangToggleButton.vue';
 import NavbarLinks from './NavbarLinks.vue';
-import Image from '../../shared/Image/Image.vue';
+import Image from '@shared/Image/Image.vue';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';

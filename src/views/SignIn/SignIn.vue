@@ -25,5 +25,5 @@
 
 <script lang="ts" setup>
 import SignInForm from './SignInForm.vue';
-import Image from '../../components/shared/Image/Image.vue';
+import Image from '@shared/Image/Image.vue';
 </script>
