@@ -1,12 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/404.html"
-    }
-  ],
-  "github": {
-    "silent": true
-  },
-  "cleanUrls": true
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
