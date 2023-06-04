@@ -8,7 +8,7 @@
           <Image
             class="mr-3 h-12"
             alt="Pokepedia Logo"
-            src="src/assets/images/logo/Pokepedia.png" />
+            :src="logoImage" />
         </router-link>
         <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-white sm:mb-0">
           <li>
@@ -89,6 +89,8 @@ import Modal from '@shared/Modal/Modal.vue';
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
 import { useNow, useDateFormat } from '@vueuse/core';
+
+import logoImage from '@assets/images/logo/Pokepedia.png'
 
 onMounted(() => {
   initFlowbite();

@@ -7,7 +7,7 @@
         <Image
           class="mr-3 h-12"
           alt="Pokepedia Logo"
-          src="src/assets/images/logo/Pokepedia.png" />
+          :src="logoImage" />
       </router-link>
       <div class="flex items-center xl:order-2">
         <ThemeToggleButton />
@@ -58,6 +58,8 @@ import Image from '@shared/Image/Image.vue';
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
 import { Icon } from '@iconify/vue';
+
+import logoImage from '@assets/images/logo/Pokepedia.png'
 
 onMounted(() => {
   initFlowbite();
