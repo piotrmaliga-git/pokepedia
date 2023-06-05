@@ -20,14 +20,14 @@
       </li>
       <li>
         <a
-          href="#"
+          href="#gamesAndApps"
           class="navbar-link navbar-link--dark"
           >{{ $t('nav.gamesAndApps') }}</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#tradingCards"
           class="navbar-link navbar-link--dark"
           >{{ $t('nav.tradingCardGame') }}</a
         >
