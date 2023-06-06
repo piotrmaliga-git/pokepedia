@@ -22,6 +22,12 @@ const router = createRouter({
       meta: { title: 'Sign up' },
     },
     {
+      path: '/forgotpassword',
+      name: 'forgotpassword',
+      component: () => import('@views/ForgotPassword/ForgotPassword.vue'),
+      meta: { title: 'Forgot password' },
+    },
+    {
       path: '/:pathMatch(.*)*',
       name: 'NotFound',
       component: () => import('@views/NotFound/NotFound.vue'),
