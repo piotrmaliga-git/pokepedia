@@ -9,7 +9,7 @@
               alt="Pokepedia Logo"
               src="src/assets/images/logo/Pokepedia.png" />
           </div>
-          <div class="w-full rounded-lg bg-white shadow sm:max-w-md md:mt-0 xl:p-0">
+          <div class="w-full rounded-lg bg-white shadow sm:max-w-lg md:mt-0 xl:p-0">
             <div class="space-y-4 p-6 sm:p-8 md:space-y-6">
               <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
                 Create and account
@@ -23,7 +23,7 @@
   </section>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import SignUpForm from './SignUpForm.vue';
 import Image from '@shared/Image/Image.vue';
 </script>
