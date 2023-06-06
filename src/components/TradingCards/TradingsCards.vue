@@ -7,12 +7,13 @@
       </h2>
       <p class="mb-8 text-center font-light text-gray-500 dark:text-gray-400 sm:text-xl lg:mb-16">
         Got a technical issue? Want to send feedback about a beta feature? Need details about our
-        Business plan? Let us know. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci vero quam dolore quidem accusantium recusandae voluptates earum et natus rem beatae iste ducimus at repudiandae, sit, illo, magni veritatis!
+        Business plan? Let us know. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Tempore adipisci vero quam dolore quidem accusantium recusandae voluptates earum et natus
+        rem beatae iste ducimus at repudiandae, sit, illo, magni veritatis!
       </p>
     </div>
-    <div
-      class="mx-auto max-w-screen-xl items-center gap-16 px-4 lg:px-6 pb-16">
-            <div class="flex flex-row flex-wrap  gap-8">
+    <div class="mx-auto max-w-screen-xl items-center gap-16 px-4 pb-16 lg:px-6">
+      <div class="flex flex-row flex-wrap gap-8">
         <div
           class="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
           <a href="#">
@@ -121,9 +122,7 @@
             </a>
           </div>
         </div>
-      </div> 
       </div>
+    </div>
   </section>
 </template>
-
-<script setup lang="ts"></script>

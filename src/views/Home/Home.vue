@@ -12,7 +12,7 @@
   <Footer />
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import Header from '@components/Header/Header.vue';
 import About from '@components/About/About.vue';
 import Pokedex from '@components/Pokedex/Pokedex.vue';
