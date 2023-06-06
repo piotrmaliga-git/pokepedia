@@ -77,11 +77,11 @@
           >
         </div>
       </div>
-      <a
-        href="#"
-        class="text-sm font-medium text-red-600 hover:underline"
-        >Forgot password?</a
-      >
+      <router-link
+        to="/forgotpassword"
+        class="text-sm font-medium text-red-600 hover:underline">
+        Forgot password?
+      </router-link>
     </div>
     <button
       type="submit"
