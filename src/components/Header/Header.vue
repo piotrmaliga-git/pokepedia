@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import Navbar from './Navbar/Navbar.vue';
-import Hero from './Hero.vue';
+import Navbar from '@components/Header/Navbar/Navbar.vue';
+import Hero from '@components/Header/Hero.vue';
 </script>

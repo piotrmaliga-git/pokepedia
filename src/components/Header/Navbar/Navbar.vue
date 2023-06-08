@@ -50,16 +50,16 @@
 </template>
 
 <script setup lang="ts">
-import ThemeToggleButton from './ThemeToggleButton.vue';
-import LangToggleDropdown from './LangToggleButton.vue';
-import NavbarLinks from './NavbarLinks.vue';
+import ThemeToggleButton from '@components/Header/Navbar/ThemeToggleButton.vue';
+import LangToggleDropdown from '@components/Header/Navbar/LangToggleButton.vue';
+import NavbarLinks from '@components/Header/Navbar/NavbarLinks.vue';
 import Image from '@shared/Image/Image.vue';
+
+import logoImage from '@assets/images/logo/Pokepedia.png'
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
 import { Icon } from '@iconify/vue';
-
-import logoImage from '@assets/images/logo/Pokepedia.png'
 
 onMounted(() => {
   initFlowbite();

@@ -33,8 +33,8 @@
 <script setup lang="ts">
 import FooterLinks from '@components/Footer/FooterLinks.vue';
 import FooterIcons from '@components/Footer/FooterIcons.vue';
-
 import Image from '@shared/Image/Image.vue';
+
 import logoImage from '@assets/images/logo/Pokepedia.png';
 
 import { onMounted } from 'vue';

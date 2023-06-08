@@ -120,7 +120,8 @@
 </template>
 
 <script setup lang="ts">
-import GamesAndAppsTabs from './GamesAndAppsTabs.vue';
+import GamesAndAppsTabs from '@components/GamesAndApps/GamesAndAppsTabs.vue';
+
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
 
@@ -128,5 +129,3 @@ onMounted(() => {
   initFlowbite();
 });
 </script>
-
-<!-- src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" -->

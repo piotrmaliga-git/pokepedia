@@ -15,5 +15,5 @@
 </template>
 
 <script setup lang="ts">
-import ContactForm from './ContactForm.vue';
+import ContactForm from '@components/Contact/ContactForm.vue';
 </script>
