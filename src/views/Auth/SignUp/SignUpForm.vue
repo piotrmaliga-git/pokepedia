@@ -60,10 +60,17 @@
           >I accept the
           <a
             class="font-medium text-red-600 hover:underline"
-            href="#"
+            data-modal-target="term-and-conditions-modal"
+            data-modal-toggle="term-and-conditions-modal"
             >Terms and Conditions</a
           ></label
         >
+        <Modal
+          id="term-and-conditions-modal"
+          dataModalHide="term-and-conditions-modal"
+          tabindex="-1"
+          headingTitle="Terms &amp; Conditions"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum illo porro non quos. Quidem, excepturi molestias? Voluptate recusandae incidunt velit. Necessitatibus sit, quos nesciunt nemo delectus consequatur. Neque, perferendis." />
       </div>
     </div>
     <button
@@ -81,3 +88,7 @@
     </p>
   </form>
 </template>
+
+<script setup lang="ts">
+import Modal from '@shared/Modal/Modal.vue';
+</script>
