@@ -1,16 +1,14 @@
 <template>
-  <!-- <button
-   @change="switchLanguage"
+  <button
     type="button"
     data-dropdown-toggle="language-dropdown-menu"
     class="mr-2 inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-red-600">
     <Icon
-      icon="emojione:flag-for-united-states"
+      :icon="locale === 'en' ? 'emojione:flag-for-united-states' : 'emojione:flag-for-poland'"
       width="22"
       height="22"
-      class="mr-2"
-      aria-hidden="true" />
-    English
+      class="mr-2"/>
+    {{ locale === 'en' ? t(`locale.en`) : t(`locale.pl`) }}
   </button>
 
   <div
@@ -19,64 +17,53 @@
     <ul
       class="py-2 font-medium"
       role="none">
-      <li v-for="sLocale in supportedLocales"
-      :key="`locale-${sLocale}`"
-      :value="sLocale"
-      :selected="locale === sLocale"
-      @change="switchLanguage"
-      >
-        <a
-          href="#"
-          
+      <li
+        v-for="sLocale in supportedLocales"
+        :key="`locale-${sLocale}`"
+        :value="sLocale"
+        :selected="locale === sLocale"
+        @click="switchLanguage"
+        >
+        <div
           class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
           role="menuitem">
           <div class="inline-flex items-center">
+            <Icon
+              :icon="
+                sLocale === 'en' ? 'emojione:flag-for-united-states' : 'emojione:flag-for-poland'
+              "
+              width="16"
+              height="16"
+              class="mr-2" />
             {{ t(`locale.${sLocale}`) }}
           </div>
-        </a>
+        </div>
       </li>
     </ul>
-  </div> -->
+  </div>
 
-  <select @change="switchLanguage">
+  <!-- <select @change="switchLanguage">
     <option
       v-for="sLocale in supportedLocales"
       :key="`locale-${sLocale}`"
       :value="sLocale"
-      :selected="locale === sLocale"
-    >
+      :selected="locale === sLocale">
       {{ t(`locale.${sLocale}`) }}
     </option>
-  </select>
+  </select> -->
 </template>
 
-<script  lang="ts">
-import { defineComponent } from 'vue'
-import { useI18n } from 'vue-i18n'
-import { useRouter } from 'vue-router'
-import Tr from '@/i18n/translation'
-//import { Icon } from '@iconify/vue';
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+import Tr from '@/i18n/translation';
+import { Icon } from '@iconify/vue';
 
-export default defineComponent({
-  setup() {
-    const { t, locale } = useI18n()
-    const supportedLocales = Tr.supportedLocales
-    const router = useRouter()
+const { t, locale } = useI18n();
+const supportedLocales = Tr.supportedLocales;
 
-    const switchLanguage = async (event: Event) => {
-      const newLocale = (event.target as HTMLSelectElement).value
+const switchLanguage = async (event: Event): Promise<void> => {
+  const newLocale = (event.target as HTMLSelectElement).value;
 
-      await Tr.switchLanguage(newLocale)
-
-      try {
-        await router.replace({ params: { locale: newLocale } })
-      } catch (e) {
-        console.log(e)
-        router.push('/')
-      }
-    }
-
-    return { t, locale, supportedLocales, switchLanguage }
-  },
-})
+  await Tr.switchLanguage(newLocale);
+};
 </script>
