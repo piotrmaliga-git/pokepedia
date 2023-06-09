@@ -1,9 +1,7 @@
 <template>
-  <header class="h-screen max-w-full bg-hero bg-cover bg-fixed bg-center bg-no-repeat">
-    <div class="h-screen max-w-full bg-black/60">
-      <Navbar />
-      <Hero />
-    </div>
+  <header class="bg-black/60 bg-hero bg-cover bg-fixed bg-center bg-no-repeat bg-blend-multiply">
+    <Navbar />
+    <Hero />
   </header>
 </template>
 
