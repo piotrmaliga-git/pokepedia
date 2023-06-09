@@ -6,15 +6,15 @@
         alt="Pokepedia Logo"
         :src="logoImage" />
     </template>
-    <template #authFormTitle>Create and account</template>
+    <template #authFormTitle>Change Password</template>
     <template #authFormBody>
-      <SignUpForm />
+      <ForgotPasswordForm />
     </template>
   </AuthWrapper>
 </template>
 
 <script setup lang="ts">
-import SignUpForm from '@views/SignUp/SignUpForm.vue';
+import ForgotPasswordForm from '@views/Auth/ForgotPassword/ForgotPasswordForm.vue';
 import AuthWrapper from '@shared/AuthWrapper/AuthWrapper.vue';
 import Image from '@shared/Image/Image.vue';
 

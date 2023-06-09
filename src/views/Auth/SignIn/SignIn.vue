@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import SignInForm from '@views/SignIn/SignInForm.vue';
+import SignInForm from '@views/Auth/SignIn/SignInForm.vue';
 import AuthWrapper from '@shared/AuthWrapper/AuthWrapper.vue';
 import Image from '@shared/Image/Image.vue';
 
