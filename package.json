@@ -12,8 +12,7 @@
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
     "check-types": "vue-tsc --noEmit",
-    "check-build": "vite build",
-    "check-commit-mg": "--no -- commitlint --edit"
+    "check-build": "vite build"
   },
   "dependencies": {
     "@fontsource/rubik": "^4.5.14",
