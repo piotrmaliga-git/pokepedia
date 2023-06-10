@@ -7,7 +7,7 @@
       :icon="locale === 'en' ? 'emojione:flag-for-united-states' : 'emojione:flag-for-poland'"
       width="22"
       height="22"
-      class="mr-2"/>
+      class="mr-2" />
     {{ locale === 'en' ? t(`locale.en`) : t(`locale.pl`) }}
   </button>
 
@@ -22,8 +22,7 @@
         :key="`locale-${sLocale}`"
         :value="sLocale"
         :selected="locale === sLocale"
-        @click="switchLanguage"
-        >
+        @click="switchLanguage">
         <div
           class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
           role="menuitem">

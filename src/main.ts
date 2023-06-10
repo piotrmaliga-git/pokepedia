@@ -10,4 +10,4 @@ import '@assets/styles/main.css';
 import '@fontsource/rubik';
 import '@fontsource/rubik/700.css';
 
-createApp(App).use(router).use(i18n).mount('#app')
+createApp(App).use(router).use(i18n).mount('#app');

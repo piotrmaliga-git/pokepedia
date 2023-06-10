@@ -15,8 +15,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'hero': "url('/src/assets/images/backgrounds/hero.jpg')",
-        'auth': "url('/src/assets/images/backgrounds/auth.png')",
+        hero: "url('/src/assets/images/backgrounds/hero.jpg')",
+        auth: "url('/src/assets/images/backgrounds/auth.png')",
       },
     },
   },

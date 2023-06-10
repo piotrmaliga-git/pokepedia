@@ -3,8 +3,8 @@
   <main class="relative bg-theme-light dark:bg-theme-dark">
     <About />
     <Pokedex />
-    <GamesAndApps/>
-    <TradingsCards/>
+    <GamesAndApps />
+    <TradingsCards />
     <Contact />
     <Faq />
     <ScrollToTopButton />

@@ -55,7 +55,7 @@ import LangToggleDropdown from '@components/Header/Navbar/LangToggleButton.vue';
 import NavbarLinks from '@components/Header/Navbar/NavbarLinks.vue';
 import Image from '@shared/Image/Image.vue';
 
-import logoImage from '@assets/images/logo/Pokepedia.png'
+import logoImage from '@assets/images/logo/Pokepedia.png';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';

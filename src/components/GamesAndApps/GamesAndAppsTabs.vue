@@ -96,7 +96,7 @@
       role="tabpanel"
       aria-labelledby="settings-tab">
       <p class="text-gray-500 dark:text-gray-400">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum ornare eros id
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum ornare eros id
         gravida. Mauris dignissim urna ut mauris egestas feugiat. Vivamus augue elit, sagittis ac
         nulla eu, aliquam aliquet enim. Nulla vitae urna sapien. Vestibulum magna ligula, bibendum
         in nibh ut, convallis fermentum odio. Aenean sit amet volutpat diam. Suspendisse sed dolor
@@ -110,7 +110,7 @@
       role="tabpanel"
       aria-labelledby="contacts-tab">
       <p class="text-gray-500 dark:text-gray-400">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum ornare eros id
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum ornare eros id
         gravida. Mauris dignissim urna ut mauris egestas feugiat. Vivamus augue elit, sagittis ac
         nulla eu, aliquam aliquet enim. Nulla vitae urna sapien. Vestibulum magna ligula, bibendum
         in nibh ut, convallis fermentum odio. Aenean sit amet volutpat diam. Suspendisse sed dolor

@@ -63,7 +63,7 @@
             >Terms &amp; Conditions</a
           >
         </li>
-         <Modal
+        <Modal
           id="term-and-conditions-modal"
           dataModalHide="term-and-conditions-modal"
           tabindex="-1"
