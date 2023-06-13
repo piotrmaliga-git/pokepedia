@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Check build application
+npm run check-build ||
+(
+  echo '❌ Build check failed: View the errors above.'
+  false;
+)
+echo '✅ Build check passed.';
+
+
+echo '✅ Your changes have been pushed successfully.'

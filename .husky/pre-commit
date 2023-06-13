@@ -31,15 +31,3 @@ npm run check-types ||
   false;
 )
 echo '✅ Type check passed.';
-
-
-# Check build application
-npm run check-build ||
-(
-  echo '❌ Build check failed: View the errors above.'
-  false;
-)
-echo '✅ Build check passed.';
-
-
-echo '✅ Your changes have been committed successfully.'
