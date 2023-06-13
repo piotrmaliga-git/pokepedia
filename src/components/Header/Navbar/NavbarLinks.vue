@@ -51,7 +51,7 @@
         class="xl:hidden">
         <button
           type="button"
-          class="btn my-4 mr-2 w-full border-2 border-gray-500 py-2 text-gray-500">
+          class="btn my-4 mr-2 w-full border border-gray-500 py-2 text-gray-500 dark:border-white dark:text-white">
           Sign in
         </button>
       </router-link>
