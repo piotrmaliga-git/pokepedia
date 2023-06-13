@@ -5,21 +5,21 @@
     <div>
       <label
         for="email"
-        class="mb-2 block text-sm font-medium text-gray-900"
+        class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
         >Your email</label
       >
       <input
         type="email"
         name="email"
         id="email"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
         placeholder="mail@example.com"
         required="true" />
     </div>
     <div>
       <label
         for="password"
-        class="mb-2 block text-sm font-medium text-gray-900"
+        class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
         >Password</label
       >
       <input
@@ -27,13 +27,13 @@
         name="password"
         id="password"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
         required="true" />
     </div>
     <div>
       <label
         for="confirm-password"
-        class="mb-2 block text-sm font-medium text-gray-900"
+        class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
         >Confirm password</label
       >
       <input
@@ -41,7 +41,7 @@
         name="confirm-password"
         id="confirm-password"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
         required="true" />
     </div>
     <div class="flex items-start">
@@ -50,13 +50,13 @@
           id="terms"
           aria-describedby="terms"
           type="checkbox"
-          class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600"
+          class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600 dark:border-gray-600 dark:bg-gray-700"
           required="true" />
       </div>
       <div class="ml-3 text-sm">
         <label
           for="terms"
-          class="font-light text-gray-500"
+          class="font-light text-gray-500 dark:text-gray-300"
           >I accept the
           <a
             class="font-medium text-red-600 hover:underline"
@@ -78,7 +78,7 @@
       class="w-full rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-red-700">
       Create an account
     </button>
-    <p class="text-sm font-light text-gray-500">
+    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
       Already have an account?
       <router-link
         to="/signin"
