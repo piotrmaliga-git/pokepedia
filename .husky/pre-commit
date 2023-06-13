@@ -1,36 +1,36 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo '🏗️👷 Styling, testing and building your project before committing'
+echo '🏗️👷 Styling and testing your project before committing'
 
 # Check commit message using Commitlint
 npx --no -- commitlint --edit
 
 # Check Prettier standards
-npm run check-format ||
-(
-  echo '❌ Prettier check failed: Run (npm run format), add changes and try to commit again.';
+if npm run check-format
+then
+  echo '✅ Prettier check passed';
+else
+  echo '❌ Prettier check failed: Run (npm run format), add changes and try to commit again';
   false;
-)
-echo '✅ Prettier check passed.';
-
+fi
 
 # Check ESLint Standards
-# npm run check-lint ||
-# (
-#   echo '❌ ESLint check failed: Make the required changes listed above, add changes and try to commit again.'
-#   false; 
-# )
-# echo '✅ ESLint check passed.';
-
+# if npm run check-lint
+# then
+#   echo '✅ Prettier check passed';
+# else
+#   echo '❌ ESLint check failed: Make the required changes listed above, add changes and try to commit again'
+#   false;
+# fi
 
 # Check tsconfig standards
-npm run check-types ||
-(
-  echo '❌ Type check failed: View the errors above.'
+if npm run check-types
+then
+  echo '✅ Type check passed';
+else
+  echo '❌ Type check failed: View the errors above'
   false;
-)
-echo '✅ Type check passed.';
+fi
 
-
-echo '✅ Your changes have been committed successfully.'
+echo '✅ Your changes have been committed successfully'
