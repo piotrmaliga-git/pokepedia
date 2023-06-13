@@ -5,21 +5,21 @@
     <div>
       <label
         for="email"
-        class="mb-2 block text-sm font-medium text-gray-900"
+        class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
         >Your email</label
       >
       <input
         type="email"
         name="email"
         id="email"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
         placeholder="mail@example.com"
-        required="true" />
+        required />
     </div>
     <div>
       <label
         for="password"
-        class="mb-2 block text-sm font-medium text-gray-900"
+        class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
         >Password</label
       >
       <input
@@ -27,20 +27,20 @@
         name="password"
         id="password"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
-        required="true" />
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
+        required />
     </div>
     <div class="inline-flex w-full items-center justify-center">
       <hr class="my-4 h-px w-full border-0 bg-gray-200 dark:bg-gray-700" />
       <span
-        class="absolute left-1/2 -translate-x-1/2 bg-white px-3 font-medium text-gray-900 dark:bg-gray-900 dark:text-white"
+        class="absolute left-1/2 -translate-x-1/2 bg-white px-3 font-medium text-gray-900 dark:bg-gray-800 dark:text-gray-400"
         >or</span
       >
     </div>
     <div class="flex items-center justify-between">
       <button
         type="button"
-        class="mb-2 inline-flex w-full items-center rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        class="mb-2 inline-flex w-full items-center rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700">
         <Icon
           class="-ml-1 mr-2"
           icon="logos:facebook"
@@ -50,7 +50,7 @@
       </button>
       <button
         type="button"
-        class="mb-2 ml-4 inline-flex w-full items-center rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        class="mb-2 ml-4 inline-flex w-full items-center rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700">
         <Icon
           class="-ml-1 mr-2"
           icon="logos:google-icon"
@@ -66,13 +66,13 @@
             id="remember"
             aria-describedby="remember"
             type="checkbox"
-            class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600"
-            required="true" />
+            class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600 dark:border-gray-600 dark:bg-gray-700"
+            required />
         </div>
         <div class="ml-3 text-sm">
           <label
             for="remember"
-            class="text-gray-500"
+            class="text-gray-500 dark:text-gray-300"
             >Remember me</label
           >
         </div>
@@ -88,7 +88,7 @@
       class="w-full rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-red-700">
       Sign in
     </button>
-    <p class="text-sm font-light text-gray-500">
+    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
       Don't have an account yet?
       <router-link
         to="/signup"
