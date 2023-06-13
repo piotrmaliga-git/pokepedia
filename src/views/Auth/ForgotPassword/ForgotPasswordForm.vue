@@ -12,9 +12,9 @@
         type="email"
         name="email"
         id="email"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
         placeholder="name@company.com"
-        required="true" />
+        required />
     </div>
     <div>
       <label
@@ -27,8 +27,8 @@
         name="password"
         id="password"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
-        required="true" />
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
+        required />
     </div>
     <div>
       <label
@@ -41,8 +41,8 @@
         name="confirm-password"
         id="confirm-password"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 sm:text-sm"
-        required="true" />
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
+        required />
     </div>
     <div class="flex items-start">
       <div class="flex h-5 items-center">
@@ -50,13 +50,13 @@
           id="newsletter"
           aria-describedby="newsletter"
           type="checkbox"
-          class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600"
-          required="true" />
+          class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600 dark:border-gray-600 dark:bg-gray-700"
+          required />
       </div>
       <div class="ml-3 text-sm">
         <label
           for="newsletter"
-          class="font-light text-gray-500"
+          class="font-light text-gray-500 dark:text-gray-300"
           >I accept the
           <a
             class="font-medium text-red-600 hover:underline"
