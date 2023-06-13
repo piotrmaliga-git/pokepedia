@@ -31,3 +31,6 @@ npm run check-types ||
   false;
 )
 echo '✅ Type check passed.';
+
+
+echo '✅ Your changes have been committed successfully.'
