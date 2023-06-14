@@ -26,3 +26,6 @@ coverage
 
 # rollup-plugin-visualizer
 stats.html
+
+# unlighthouse
+.unlighthouse
