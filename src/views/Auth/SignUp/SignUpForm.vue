@@ -2,6 +2,34 @@
   <form
     class="space-y-4 md:space-y-6"
     action="#">
+    <div class="flex flex-col items-center justify-between sm:flex-row">
+      <div class="w-full">
+        <label
+          for="first_name"
+          class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+          >First name</label
+        >
+        <input
+          type="text"
+          id="first_name"
+          class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
+          placeholder="John"
+          required />
+      </div>
+      <div class="mt-4 w-full sm:ml-4 sm:mt-0">
+        <label
+          for="last_name"
+          class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+          >Last name</label
+        >
+        <input
+          type="text"
+          id="last_name"
+          class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
+          placeholder="Doe"
+          required />
+      </div>
+    </div>
     <div>
       <label
         for="email"
