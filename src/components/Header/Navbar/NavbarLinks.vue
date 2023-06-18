@@ -3,7 +3,7 @@
     class="hidden w-full items-center justify-between xl:order-1 xl:flex xl:w-auto"
     id="mobile-menu-language-select">
     <ul
-      class="mt-4 flex flex-col rounded-lg bg-gray-100 p-4 font-medium dark:bg-gray-700 xl:mt-0 xl:flex-row xl:space-x-8 xl:border-0 xl:bg-transparent xl:p-0 dark:xl:bg-transparent">
+      class="mt-4 flex flex-col rounded-lg border border-gray-400 bg-gray-100 p-4 font-medium dark:border-gray-500 dark:bg-gray-700 xl:mt-0 xl:flex-row xl:space-x-8 xl:border-0 xl:bg-transparent xl:p-0 dark:xl:bg-transparent">
       <li>
         <a
           href="#about"
