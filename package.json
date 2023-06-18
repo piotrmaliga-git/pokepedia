@@ -7,9 +7,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write .",
+    "format": "prettier --write ./src",
     "prepare": "husky install",
-    "check-format": "prettier --check .",
+    "check-format": "prettier --check ./src",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
     "check-types": "vue-tsc --noEmit",
     "check-build": "vite build"
