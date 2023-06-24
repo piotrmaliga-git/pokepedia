@@ -17,6 +17,8 @@
   "dependencies": {
     "@fontsource/rubik": "^4.5.14",
     "@intlify/unplugin-vue-i18n": "^0.10.0",
+    "@vuelidate/core": "^2.0.2",
+    "@vuelidate/validators": "^2.0.2",
     "@vueuse/core": "^10.1.0",
     "firebase": "^9.23.0",
     "flowbite": "^1.6.4",
