@@ -18,6 +18,7 @@
     "@fontsource/rubik": "^4.5.14",
     "@intlify/unplugin-vue-i18n": "^0.10.0",
     "@vueuse/core": "^10.1.0",
+    "firebase": "^9.23.0",
     "flowbite": "^1.6.4",
     "vue": "^3.3.4",
     "vue-i18n": "^9.2.2",
