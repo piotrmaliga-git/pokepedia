@@ -1,33 +1,33 @@
 <template>
-  <form
-    class="space-y-4 md:space-y-6"
-    action="#">
+  <form class="space-y-4 md:space-y-6">
     <div class="flex flex-col items-center justify-between sm:flex-row">
       <div class="w-full">
         <label
-          for="first_name"
+          for="firstName"
           class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
           >First name</label
         >
         <input
+          v-model="signUpForm.firstName"
           type="text"
-          id="first_name"
-          class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
+          name="firstName"
+          id="firstName"
           placeholder="John"
-          required />
+          class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400" />
       </div>
       <div class="mt-4 w-full sm:ml-4 sm:mt-0">
         <label
-          for="last_name"
+          for="lastName"
           class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
           >Last name</label
         >
         <input
+          v-model="signUpForm.lastName"
           type="text"
-          id="last_name"
-          class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
+          name="lastName"
+          id="lastName"
           placeholder="Doe"
-          required />
+          class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400" />
       </div>
     </div>
     <div>
@@ -37,12 +37,12 @@
         >Your email</label
       >
       <input
+        v-model="signUpForm.email"
         type="email"
         name="email"
         id="email"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
         placeholder="mail@example.com"
-        required="true" />
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm" />
     </div>
     <div>
       <label
@@ -51,26 +51,26 @@
         >Password</label
       >
       <input
+        v-model="signUpForm.password"
         type="password"
         name="password"
         id="password"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
-        required="true" />
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm" />
     </div>
     <div>
       <label
-        for="confirm-password"
+        for="confirmPassword"
         class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
         >Confirm password</label
       >
       <input
-        type="confirm-password"
-        name="confirm-password"
-        id="confirm-password"
+        v-model="signUpForm.confirmPassword"
+        type="confirmPassword"
+        name="confirmPassword"
+        id="confirmPassword"
         placeholder="••••••••"
-        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm"
-        required="true" />
+        class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 sm:text-sm" />
     </div>
     <div class="flex items-start">
       <div class="flex h-5 items-center">
@@ -78,8 +78,7 @@
           id="terms"
           aria-describedby="terms"
           type="checkbox"
-          class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600 dark:border-gray-600 dark:bg-gray-700"
-          required="true" />
+          class="h-4 w-4 rounded border border-gray-300 bg-gray-50 accent-red-600 dark:border-gray-600 dark:bg-gray-700" />
       </div>
       <div class="ml-3 text-sm">
         <label
@@ -102,7 +101,7 @@
       </div>
     </div>
     <button
-      type="submit"
+      @click="validateSignUpForm"
       class="w-full rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-red-700">
       Create an account
     </button>
@@ -119,4 +118,53 @@
 
 <script setup lang="ts">
 import Modal from '@shared/Modal/Modal.vue';
+
+import { reactive } from 'vue';
+import { useRouter } from 'vue-router';
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import useVuelidate from '@vuelidate/core';
+import { required, email, minLength, sameAs } from '@vuelidate/validators';
+
+const signUpForm = reactive({
+  firstName: '',
+  lastName: '',
+  email: '',
+  password: '',
+  confirmPassword: '',
+});
+
+const rules = {
+  firstName: { required },
+  lastName: { required },
+  email: { required, email },
+  password: { required, minLength: minLength(6) },
+  confirmPassword: { required, sameAs: sameAs(signUpForm.password) },
+};
+
+const router = useRouter();
+const auth = getAuth();
+const v$ = useVuelidate(rules, signUpForm);
+
+const validateSignUpForm = async (): Promise<void> => {
+  const result = await v$.value.$validate();
+
+  // if (result) {
+  //   alert('success, form submitted!');
+  // } else {
+  //   alert('error, form not submitted!');
+  // }
+};
+
+const signUp = (): void => {
+  createUserWithEmailAndPassword(auth, signUpForm.email, signUpForm.password)
+    .then(result => {
+      console.log(result);
+      console.log('Successfully registered!');
+      router.push('/');
+    })
+    .catch(error => {
+      console.log(error.code);
+      alert(error.message);
+    });
+};
 </script>
