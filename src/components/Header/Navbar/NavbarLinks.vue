@@ -46,24 +46,54 @@
           >{{ $t('nav.faq') }}</a
         >
       </li>
-      <router-link
-        to="/signin"
-        class="xl:hidden">
+      <template v-if="!auth.currentUser?.displayName">
+        <router-link
+          to="/signin"
+          class="xl:hidden">
+          <button
+            type="button"
+            class="btn my-4 mr-2 w-full border border-gray-500 py-2 text-gray-500 dark:border-white dark:text-white">
+            Sign in
+          </button>
+        </router-link>
+        <router-link
+          to="/signup"
+          class="xl:hidden">
+          <button
+            type="button"
+            class="btn btn--red mb-4 mr-2 w-full py-2">
+            Sign up
+          </button>
+        </router-link>
+      </template>
+      <template v-else>
         <button
+          @click="signOutUser"
           type="button"
-          class="btn my-4 mr-2 w-full border border-gray-500 py-2 text-gray-500 dark:border-white dark:text-white">
-          Sign in
+          class="btn btn--red mr-2 w-full py-2 xl:hidden">
+          Sign Out
         </button>
-      </router-link>
-      <router-link
-        to="/signup"
-        class="xl:hidden">
-        <button
-          type="button"
-          class="btn btn--red mr-2 w-full py-2">
-          Sign up
-        </button>
-      </router-link>
+      </template>
     </ul>
   </div>
 </template>
+
+<script setup lang="ts">
+import { getAuth, signOut } from 'firebase/auth';
+import { useRouter } from 'vue-router';
+
+const auth = getAuth();
+const router = useRouter();
+
+const signOutUser = (): void => {
+  signOut(auth)
+    .then(result => {
+      console.log('Successfully sign out!');
+      router.push('/signin');
+    })
+    .catch(error => {
+      console.log(error.code);
+      alert(error.message);
+    });
+};
+</script>
