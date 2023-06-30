@@ -3,9 +3,6 @@
 
 echo '🏗️👷 Styling and testing your project before committing'
 
-# Check commit message using Commitlint
-npx --no -- commitlint --edit
-
 # Check Prettier standards
 if npm run check-format
 then
