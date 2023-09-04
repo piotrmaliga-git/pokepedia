@@ -17,6 +17,7 @@
     "check-tests-coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@fontsource/rubik": "^4.5.14",
     "@intlify/unplugin-vue-i18n": "^0.10.0",
     "@vue/test-utils": "^2.4.0-alpha.2",
