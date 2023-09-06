@@ -47,3 +47,20 @@
     </button>
   </form>
 </template>
+
+<script setup lang="ts">
+// import emailjs from '@emailjs/browser';
+
+// const sendEmail = (): void => {
+//   emailjs
+//     .sendForm('service_ni2u6tn', 'template_0kl3ujp', this.$refs.contactForm, 'NksSG0YqwR5trRVqc')
+//     .then(
+//       result => {
+//         console.log('SUCCESS!', result.text);
+//       },
+//       error => {
+//         console.log('FAILED...', error.text);
+//       }
+//     );
+// };
+</script>
