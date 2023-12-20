@@ -1,37 +1,41 @@
 <template>
   <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
     <div>
-      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Resources</h2>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Resources</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
-            href="https://flowbite.com/"
+            href="https://www.pokemon.com/us"
+            target="_blank"
             class="hover:underline"
-            >Flowbite</a
+            >Pokemon</a
           >
         </li>
         <li>
           <a
-            href="https://tailwindcss.com/"
+            href="https://bulbagarden.net"
+            target="_blank"
             class="hover:underline"
-            >Tailwind CSS</a
+            >Bulbagarden</a
           >
         </li>
       </ul>
     </div>
     <div>
-      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Follow us</h2>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Follow us</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
-            href="https://github.com/themesberg/flowbite"
+            href="https://github.com/piotrmaliga-git/pokepedia"
+            target="_blank"
             class="hover:underline"
             >Github</a
           >
         </li>
         <li>
           <a
-            href="https://discord.gg/4eeurUVvTy"
+            href="https://discord.gg"
+            target="_blank"
             class="hover:underline"
             >Discord</a
           >
@@ -39,7 +43,7 @@
       </ul>
     </div>
     <div>
-      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900">Legal</h2>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Legal</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
