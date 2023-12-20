@@ -1,10 +1,12 @@
 <template>
   <AuthWrapper>
     <template #authLogoImage>
-      <Image
-        class="mr-3 h-24"
-        alt="Pokepedia Logo"
-        :src="logoImage" />
+      <router-link to="/">
+        <Image
+          class="mr-3 h-24"
+          alt="Pokepedia Logo"
+          :src="logoImage" />
+      </router-link>
     </template>
     <template #authFormTitle>Change Password</template>
     <template #authFormBody>
