@@ -6,8 +6,8 @@
         Contact Us
       </h2>
       <p class="mb-8 text-center font-light text-gray-500 dark:text-gray-400 sm:text-xl lg:mb-16">
-        Got a technical issue? Want to send feedback about a beta feature? Need details about our
-        Business plan? Let us know.
+        We're here to assist you, so whether you have feedback to share or questions to ask, please
+        reach out to us – we're just a message away!
       </p>
       <ContactForm />
     </div>

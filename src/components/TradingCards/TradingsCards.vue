@@ -6,10 +6,12 @@
         Trading Card Game
       </h2>
       <p class="mb-8 text-center font-light text-gray-500 dark:text-gray-400 sm:text-xl lg:mb-16">
-        Got a technical issue? Want to send feedback about a beta feature? Need details about our
-        Business plan? Let us know. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Tempore adipisci vero quam dolore quidem accusantium recusandae voluptates earum et natus
-        rem beatae iste ducimus at repudiandae, sit, illo, magni veritatis!
+        are a cherished part of the Pokémon world, offering collectors and players the opportunity
+        to discover rare and holographic cards that enhance their decks. Whether you're a seasoned
+        trainer or a newcomer, these cards provide endless excitement, fostering a sense of
+        community and competition in the pursuit of Pokémon mastery. Dive into the Pokémon Trading
+        Card Game, build your dream deck, and engage in thrilling battles as you explore the world
+        of Pokémon through these iconic cards.
       </p>
     </div>
     <div class="mx-auto max-w-screen-xl items-center gap-16 px-4 pb-16 lg:px-6">
