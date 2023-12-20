@@ -4,7 +4,7 @@
     <div class="mr-auto place-self-center lg:col-span-7">
       <h1
         class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl xl:text-6xl">
-        Payments tool for software companies
+        Pokémon World: Discover, Collect, and Play!
       </h1>
       <p class="mb-6 max-w-2xl font-light text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
         From checkout to global sales tax compliance, companies around the world use Flowbite to
@@ -13,7 +13,7 @@
       <a
         href="#"
         class="mr-3 inline-flex items-center justify-center rounded-lg bg-red-600 px-5 py-3 text-center text-base font-medium text-white hover:scale-105 hover:bg-red-700">
-        Get started
+        Find Pokemon
         <svg
           class="-mr-1 ml-2 h-5 w-5"
           fill="currentColor"
@@ -28,12 +28,12 @@
       <a
         href="#"
         class="inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white px-5 py-3 text-center text-base font-medium text-gray-900 hover:scale-105 hover:bg-gray-200">
-        Speak to Sales
+        Contact us
       </a>
     </div>
     <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
       <img
-        src="@/assets/images/snorlax.png"
+        src="@assets/images/snorlax.png"
         alt="mockup" />
     </div>
   </section>
