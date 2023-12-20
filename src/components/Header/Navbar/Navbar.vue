@@ -1,35 +1,45 @@
 <template>
   <nav class="absolute z-50 w-full">
     <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-      <a
-        href="/"
+      <router-link
+        to="/"
         class="flex items-center">
-        <img
-          src="../../../assets/images/logo/Pokepedia.png"
+        <Image
           class="mr-3 h-12"
-          alt="Pokepedia Logo" />
-      </a>
+          alt="Pokepedia Logo"
+          :src="logoImage" />
+      </router-link>
       <div class="flex items-center xl:order-2">
         <ThemeToggleButton />
         <LangToggleDropdown />
-        <router-link
-          to="/signin"
-          class="hidden xl:block">
+        <template v-if="!auth.currentUser?.displayName">
+          <router-link
+            to="/signin"
+            class="hidden xl:block">
+            <button
+              type="button"
+              class="btn mr-2 px-4 py-2">
+              Sign in
+            </button>
+          </router-link>
+          <router-link
+            to="/signup"
+            class="hidden xl:block">
+            <button
+              type="button"
+              class="btn btn--red mr-2 px-4 py-2">
+              Sign up
+            </button>
+          </router-link>
+        </template>
+        <template v-else>
           <button
+            @click="signOutUser"
             type="button"
-            class="btn mr-2 px-4 py-2">
-            Sign in
+            class="btn btn--red mr-2 hidden px-4 py-2 xl:block">
+            Sign Out
           </button>
-        </router-link>
-        <router-link
-          to="/signup"
-          class="hidden xl:block">
-          <button
-            type="button"
-            class="btn btn--red mr-2 px-4 py-2">
-            Sign up
-          </button>
-        </router-link>
+        </template>
         <button
           data-collapse-toggle="mobile-menu-language-select"
           type="button"
@@ -50,15 +60,36 @@
 </template>
 
 <script setup lang="ts">
-import ThemeToggleButton from './ThemeToggleButton.vue';
-import LangToggleDropdown from './LangToggleButton.vue';
-import NavbarLinks from './NavbarLinks.vue';
+import ThemeToggleButton from '@components/Header/Navbar/ThemeToggleButton.vue';
+import LangToggleDropdown from '@components/Header/Navbar/LangToggleButton.vue';
+import NavbarLinks from '@components/Header/Navbar/NavbarLinks.vue';
+import Image from '@shared/Image/Image.vue';
+
+import logoImage from '@assets/images/logo/Pokepedia.png';
 
 import { onMounted } from 'vue';
+import { useRouter } from 'vue-router';
+import { getAuth, signOut } from 'firebase/auth';
 import { initFlowbite } from 'flowbite';
 import { Icon } from '@iconify/vue';
 
 onMounted(() => {
   initFlowbite();
 });
+
+const auth = getAuth();
+const router = useRouter();
+
+const signOutUser = (): void => {
+  signOut(auth)
+    .then(() => {
+      console.log('Successfully sign out!');
+      console.log(auth.currentUser);
+      router.push('/signin');
+    })
+    .catch(error => {
+      console.log(error.code);
+      alert(error.message);
+    });
+};
 </script>

@@ -1,72 +1,41 @@
 <template>
   <footer class="bg-red-600">
-    <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
-      <div class="sm:flex sm:items-center sm:justify-between">
-        <a
-          href="/404"
-          class="mb-4 flex items-center sm:mb-0">
-          <img
-            src="../../assets/images/logo/Pokepedia.png"
-            class="mr-3 h-12"
-            alt="Pokepedia Logo" />
-        </a>
-        <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-white sm:mb-0">
-          <li>
-            <a
-              class="mr-4 cursor-pointer hover:underline md:mr-6"
-              data-modal-target="about-modal"
-              data-modal-toggle="about-modal"
-              >About</a
-            >
-          </li>
-          <AboutModal />
-          <li>
-            <a
-              class="mr-4 cursor-pointer hover:underline md:mr-6"
-              data-modal-target="policy-modal"
-              data-modal-toggle="policy-modal"
-              >Privacy Policy</a
-            >
-          </li>
-          <PolicyModal />
-          <li>
-            <a
-              class="mr-4 cursor-pointer hover:underline md:mr-6"
-              data-modal-target="license-modal"
-              data-modal-toggle="license-modal"
-              >Licensing</a
-            >
-          </li>
-          <LicenseModal />
-          <li>
-            <a
-              class="cursor-pointer hover:underline"
-              data-modal-target="contact-modal"
-              data-modal-toggle="contact-modal"
-              >Contact</a
-            >
-          </li>
-          <ContactModal />
-        </ul>
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+          <router-link
+            to="/"
+            class="flex items-center">
+            <Image
+              class="mr-3 h-12"
+              alt="Pokepedia Logo"
+              :src="logoImage" />
+          </router-link>
+        </div>
+        <FooterLinks />
       </div>
       <hr class="my-6 border-l-gray-200 sm:mx-auto lg:my-8" />
-      <span class="block text-sm text-white sm:text-center"
-        >&copy; {{ currentYear }}
-        <a
-          href="/"
-          class="hover:underline"
-          >Pokepedia&trade;</a
-        >. All Rights Reserved.</span
-      >
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-white sm:text-center"
+          >&copy; {{ currentYear }}
+          <router-link
+            to="/"
+            class="hover:underline"
+            >Pokepedia&trade;</router-link
+          >. All Rights Reserved.
+        </span>
+        <FooterIcons />
+      </div>
     </div>
   </footer>
 </template>
 
 <script setup lang="ts">
-import AboutModal from '../Modals/AboutModal.vue';
-import PolicyModal from '../Modals/PolicyModal.vue';
-import LicenseModal from '../Modals/LicenseModal.vue';
-import ContactModal from '../Modals/ContactModal.vue';
+import FooterLinks from '@components/Footer/FooterLinks.vue';
+import FooterIcons from '@components/Footer/FooterIcons.vue';
+import Image from '@shared/Image/Image.vue';
+
+import logoImage from '@assets/images/logo/Pokepedia.png';
 
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';

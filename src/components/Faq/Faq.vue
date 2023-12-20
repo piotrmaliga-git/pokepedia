@@ -1,6 +1,6 @@
 <template>
   <section id="faq">
-    <div class="mx-auto max-w-screen-md py-8 px-4 lg:py-16">
+    <div class="mx-auto max-w-screen-md px-4 py-8 lg:py-16">
       <h2
         class="mb-8 text-center text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:mb-16">
         Frequently asked questions
@@ -17,7 +17,7 @@
             data-accordion-target="#accordion-flush-body-1"
             aria-expanded="true"
             aria-controls="accordion-flush-body-1">
-            <span>Eos facere omnis magni doloremque, alias repellat quaerat ?</span>
+            <span>What is Pokémon ?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
@@ -32,17 +32,9 @@
           aria-labelledby="accordion-flush-heading-1">
           <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore adipisci
-              deleniti tempore velit placeat architecto.
-            </p>
-            <p class="text-gray-500 dark:text-gray-400">
-              Nemo ut aliquid quibusdam et quisquam quae
-              <a
-                href="/docs/getting-started/introduction/"
-                class="text-blue-600 hover:underline dark:text-blue-500"
-                >link</a
-              >
-              tempore velit placeat architecto nemo ut aliquid quibusdam, iste amet.
+              Pokémon, short for "Pocket Monsters," are creatures that people, known as Pokémon
+              Trainers, catch and train to battle each other. Pokémon is a popular franchise that
+              includes video games, trading card games, a TV series, movies, and merchandise.
             </p>
           </div>
         </div>
@@ -53,7 +45,7 @@
             data-accordion-target="#accordion-flush-body-2"
             aria-expanded="false"
             aria-controls="accordion-flush-body-2">
-            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit ?</span>
+            <span>How do I find rare Pokémon cards ?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
@@ -68,21 +60,9 @@
           aria-labelledby="accordion-flush-heading-2">
           <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum distinctio,
-              suscipit illum facilis, dolorem unde cum earum quia vel qui placeat inventore
-              doloribus, tempore hic voluptatibus a est similique.
-            </p>
-            <p class="text-gray-500 dark:text-gray-400">
-              Ipsum dolor sit amet consectetur, adipisicing elit. Id ad distinctio ducimus totam
-              quasi commodi blanditiis.
-
-              <a
-                href="#"
-                class="text-blue-600 hover:underline dark:text-blue-500"
-                >link</a
-              >
-              Libero facere nam cumque, quo voluptatum sunt sed! Magnam, est! Obcaecati ad aperiam
-              tempore vel, ipsam voluptatibus sed hic quaerat.
+              Rare Pokémon cards can be found in booster packs, theme decks, and special
+              collections. You can also buy individual cards from trading card shops, online
+              marketplaces, or trade with other collectors to complete your collection.
             </p>
           </div>
         </div>
@@ -93,7 +73,7 @@
             data-accordion-target="#accordion-flush-body-3"
             aria-expanded="false"
             aria-controls="accordion-flush-body-3">
-            <span>Labore tempora, perspiciatis fuga ?</span>
+            <span>How do I evolve my Pokémon in Pokémon Go?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
@@ -108,34 +88,10 @@
           aria-labelledby="accordion-flush-heading-3">
           <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi sed aut
-              iure sint assumenda quaerat expedita doloremque cupiditate dignissimos? Voluptates
-              doloremque quo dolore quas ad autem veniam optio eaque.
+              To evolve your Pokémon in Pokémon Go, collect enough of their specific candies by
+              catching, transferring, or hatching Pokémon of the same species. Then, tap on the
+              Pokémon and select the "Evolve" option if you have enough candies.
             </p>
-            <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ex eveniet, doloribus
-              cum provident voluptates! Eius, sint sit tenetur praesentium eum natus.
-            </p>
-            <p class="mb-2 text-gray-500 dark:text-gray-400">
-              However, we actually recommend using both Flowbite:
-            </p>
-            <ul class="list-disc pl-5 text-gray-500 dark:text-gray-400">
-              <li>
-                <a
-                  href="#"
-                  class="text-blue-600 hover:underline dark:text-blue-500"
-                  >link 1</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  rel="nofollow"
-                  class="text-blue-600 hover:underline dark:text-blue-500"
-                  >link 2</a
-                >
-              </li>
-            </ul>
           </div>
         </div>
         <h2 id="accordion-flush-heading-4">
@@ -145,7 +101,7 @@
             data-accordion-target="#accordion-flush-body-4"
             aria-expanded="false"
             aria-controls="accordion-flush-body-4">
-            <span>Sit amet, consectetur adipisicing elit. Consectetur iure, libero ?</span>
+            <span>How can I battle other players in Pokémon Go?</span>
             <Icon
               icon="mdi:chevron-down"
               width="24"
@@ -160,14 +116,10 @@
           aria-labelledby="accordion-flush-heading-4">
           <div class="border-b border-gray-200 p-5 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quo amet quibusdam
-              doloribus asperiores id laudantium, fugiat provident magni et excepturi consequuntur
-              beatae itaque odio aliquid illum rerum recusandae soluta!
-            </p>
-            <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam exercitationem
-              id! Magni voluptatibus sapiente ex ratione minima rerum, quia animi doloremque
-              deleniti quam cumque quos totam quas aspernatur illo.
+              In Pokémon Go, you can battle other players by sending them a Battle invitation
+              through your friend list. Alternatively, you can participate in Trainer Battles at
+              Gyms or in special events. Ensure that you and your opponent are within the same
+              vicinity or use remote battle passes to battle from a distance.
             </p>
           </div>
         </div>
@@ -177,10 +129,9 @@
 </template>
 
 <script setup lang="ts">
-import { Icon } from '@iconify/vue';
-
 import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
+import { Icon } from '@iconify/vue';
 
 onMounted(() => {
   initFlowbite();

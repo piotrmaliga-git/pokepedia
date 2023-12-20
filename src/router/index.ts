@@ -1,30 +1,36 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes: [
     {
       path: '/',
       name: 'home',
-      component: () => import('@/views/Home.vue'),
+      component: () => import('@views/Home/Home.vue'),
       meta: { title: 'Home' },
     },
     {
       path: '/signin',
       name: 'signin',
-      component: () => import('@/views/SignIn.vue'),
+      component: () => import('@views/Auth/SignIn/SignIn.vue'),
       meta: { title: 'Sign in' },
     },
     {
       path: '/signup',
       name: 'signup',
-      component: () => import('@/views/SignUp.vue'),
+      component: () => import('@views/Auth/SignUp/SignUp.vue'),
       meta: { title: 'Sign up' },
     },
     {
+      path: '/forgotpassword',
+      name: 'forgotpassword',
+      component: () => import('@views/Auth/ForgotPassword/ForgotPassword.vue'),
+      meta: { title: 'Forgot password' },
+    },
+    {
       path: '/:pathMatch(.*)*',
-      name: '404',
-      component: () => import('@/views/404.vue'),
+      name: 'NotFound',
+      component: () => import('@views/NotFound/NotFound.vue'),
       meta: { title: 'Not Found' },
     },
   ],

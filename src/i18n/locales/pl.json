@@ -1,0 +1,14 @@
+{
+  "locale": {
+    "en": "Angielski",
+    "pl": "Polski"
+  },
+  "nav": {
+    "about": "O nas",
+    "pokedex": "Pokédex",
+    "gamesAndApps": "Gry i Aplikacje",
+    "tradingCardGame": "Kolekcjonerskie Karty",
+    "contact": "Kontakt",
+    "faq": "FAQ"
+  }
+}

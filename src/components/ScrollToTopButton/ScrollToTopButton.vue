@@ -1,7 +1,7 @@
 <template>
   <div class="sticky bottom-0 right-0 flex justify-end">
     <button
-      v-if="y > 1000"
+      v-show="y > 1000"
       @click="scrollToTop"
       type="button"
       class="mb-10 mr-10 cursor-pointer rounded-full border border-red-600 bg-red-600 p-4 text-sm font-medium text-white hover:border hover:border-red-600 hover:bg-white hover:text-red-600">
