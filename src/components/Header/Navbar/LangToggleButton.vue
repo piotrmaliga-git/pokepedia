@@ -2,7 +2,7 @@
   <button
     type="button"
     data-dropdown-toggle="language-dropdown-menu"
-    class="inline-flex items-center justify-center px-4 py-2 mr-2 text-sm font-medium text-white rounded-lg cursor-pointer hover:bg-red-600">
+    class="mr-2 inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-red-600">
     <Icon
       :icon="locale === 'en' ? 'emojione:flag-for-united-states' : 'emojione:flag-for-poland'"
       width="22"
@@ -12,7 +12,7 @@
   </button>
 
   <div
-    class="z-50 hidden my-4 text-base list-none bg-gray-100 divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700"
+    class="z-50 my-4 hidden list-none divide-y divide-gray-100 rounded-lg bg-gray-100 text-base shadow dark:bg-gray-700"
     id="language-dropdown-menu">
     <ul
       class="py-2 font-medium"

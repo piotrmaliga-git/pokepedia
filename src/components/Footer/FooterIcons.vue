@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
+  <div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
     <a
       href="https://www.facebook.com"
       target="_blank"

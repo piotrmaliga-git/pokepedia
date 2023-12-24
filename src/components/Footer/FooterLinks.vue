@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
     <div>
-      <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Resources</h2>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Resources</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
@@ -24,7 +24,7 @@
       </ul>
     </div>
     <div>
-      <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Follow us</h2>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Follow us</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
@@ -47,7 +47,7 @@
       </ul>
     </div>
     <div>
-      <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Legal</h2>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Legal</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
