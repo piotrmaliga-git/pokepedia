@@ -6,15 +6,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.js,.ts --fix --ignore-path .gitignore",
     "format": "prettier --write ./src",
-    "prepare": "husky install",
-    "check-format": "prettier --check ./src",
-    "check-lint": "eslint . --ext ts --ext tsx --ext js",
-    "check-types": "vue-tsc --noEmit",
-    "check-build": "vite build",
-    "check-test": "vitest",
-    "check-tests-coverage": "vitest run --coverage"
+    "format:all": "prettier --check *",
+    "types-check": "vue-tsc --noEmit",
+    "unit-test": "vitest",
+    "unit-tests:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
