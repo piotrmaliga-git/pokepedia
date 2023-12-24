@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: run format
-        run: npm run format:all
+        run: npm run format-check:all
 
       - name: run linter
         run: npm run lint
