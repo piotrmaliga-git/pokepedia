@@ -1,8 +1,9 @@
 <template>
-  <div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+  <div class="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
     <a
       href="https://www.facebook.com"
       target="_blank"
+      rel="noopener"
       class="text-white hover:text-gray-200">
       <Icon
         icon="mdi:facebook"
@@ -13,6 +14,7 @@
     <a
       href="https://www.instagram.com"
       target="_blank"
+      rel="noopener"
       class="text-white hover:text-gray-200">
       <Icon
         icon="mdi:instagram"
@@ -23,6 +25,7 @@
     <a
       href="https://twitter.com"
       target="_blank"
+      rel="noopener"
       class="text-white hover:text-gray-200">
       <Icon
         icon="mdi:twitter"
@@ -33,6 +36,7 @@
     <a
       href="https://github.com/piotrmaliga-git/pokepedia"
       target="_blank"
+      rel="noopener"
       class="text-white hover:text-gray-200">
       <Icon
         icon="mdi:github"
@@ -43,6 +47,7 @@
     <a
       href="https://dribbble.com"
       target="_blank"
+      rel="noopener"
       class="text-white hover:text-gray-200">
       <Icon
         icon="ph:dribbble-logo"

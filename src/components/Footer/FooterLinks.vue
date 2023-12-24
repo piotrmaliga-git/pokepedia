@@ -1,12 +1,13 @@
 <template>
   <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
     <div>
-      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Resources</h2>
+      <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Resources</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
             href="https://www.pokemon.com/us"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Pokemon</a
           >
@@ -15,6 +16,7 @@
           <a
             href="https://bulbagarden.net"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Bulbagarden</a
           >
@@ -22,12 +24,13 @@
       </ul>
     </div>
     <div>
-      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Follow us</h2>
+      <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Follow us</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
             href="https://github.com/piotrmaliga-git/pokepedia"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Github</a
           >
@@ -36,6 +39,7 @@
           <a
             href="https://discord.gg"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Discord</a
           >
@@ -43,7 +47,7 @@
       </ul>
     </div>
     <div>
-      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-800">Legal</h2>
+      <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Legal</h2>
       <ul class="font-medium text-white">
         <li class="mb-4">
           <a
