@@ -13,7 +13,7 @@
     "format-check:all": "prettier --check *",
     "types-check": "vue-tsc --noEmit",
     "unit-test": "vitest",
-    "unit-tests:coverage": "vitest run --coverage",
+    "unit-test:coverage": "vitest run --coverage",
     "sonar": "sonar-scanner",
     "prepare": "husky install"
   },
