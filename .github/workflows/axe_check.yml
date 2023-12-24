@@ -2,7 +2,7 @@ name: Axe check
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   axe-check:
