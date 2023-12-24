@@ -12,7 +12,8 @@
     "types-check": "vue-tsc --noEmit",
     "unit-test": "vitest",
     "unit-tests:coverage": "vitest run --coverage",
-     "sonar": "sonar-scanner"
+    "sonar": "sonar-scanner",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -25,6 +26,7 @@
     "firebase": "^9.23.0",
     "flowbite": "^1.6.4",
     "happy-dom": "^9.20.3",
+    "lint-staged": "^15.2.0",
     "sonarqube-scanner": "^3.3.0",
     "vue": "^3.3.4",
     "vue-i18n": "^9.2.2",
@@ -43,7 +45,7 @@
     "eslint": "^8.34.0",
     "eslint-plugin-tailwindcss": "^3.10.1",
     "eslint-plugin-vue": "^9.9.0",
-    "husky": "^8.0.0",
+    "husky": "^8.0.3",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
