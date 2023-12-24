@@ -25,9 +25,9 @@ jobs:
         run: npm run build
 
       - name: run application
-        run: npm start & npx wait-on http://localhost:3000
+        run: npm start & npx wait-on http://localhost:3300
 
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.12.x
-          lhci collect --url http://localhost:3000
+          lhci collect --url http://localhost:3300
