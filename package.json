@@ -11,7 +11,8 @@
     "format:all": "prettier --check *",
     "types-check": "vue-tsc --noEmit",
     "unit-test": "vitest",
-    "unit-tests:coverage": "vitest run --coverage"
+    "unit-tests:coverage": "vitest run --coverage",
+     "sonar": "sonar-scanner"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -24,6 +25,7 @@
     "firebase": "^9.23.0",
     "flowbite": "^1.6.4",
     "happy-dom": "^9.20.3",
+    "sonarqube-scanner": "^3.3.0",
     "vue": "^3.3.4",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.6"
