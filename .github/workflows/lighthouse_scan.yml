@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: run application
-        run: npm start & npx wait-on http://localhost:3300
+        run: npm run dev & npx wait-on http://localhost:3300
 
       - name: run Lighthouse CI
         run: |
