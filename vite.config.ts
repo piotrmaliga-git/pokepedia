@@ -10,6 +10,9 @@ import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite';
 import path from 'path';
 
 export default defineConfig({
+  server: {
+    port: 3300,
+  },
   plugins: [
     vue(),
     visualizer() as PluginOption,
