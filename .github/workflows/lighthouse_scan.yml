@@ -1,0 +1,33 @@
+name: Lighthouse scan
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  lighthouse:
+    name: Lighthouse
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: npm install
+        run: npm ci
+
+      - name: build application
+        run: npm run build
+
+      - name: run application
+        run: npm start & npx wait-on http://localhost:3000
+
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.12.x
+          lhci collect --url http://localhost:3000
