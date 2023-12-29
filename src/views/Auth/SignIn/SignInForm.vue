@@ -139,6 +139,7 @@ const auth = getAuth();
 const v$ = useVuelidate(rules, signInForm);
 
 const validateSignInForm = async (): Promise<void> => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const result = await v$.value.$validate();
 
   // if (result) {
@@ -148,9 +149,10 @@ const validateSignInForm = async (): Promise<void> => {
   // }
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const signInUser = (): void => {
   signInWithEmailAndPassword(auth, signInForm.email, signInForm.password)
-    .then(result => {
+    .then(() => {
       console.log('Successfully registered!');
       console.log(auth.currentUser);
 
@@ -165,7 +167,7 @@ const signInUser = (): void => {
 const signInUserUsingGoogle = (): void => {
   const googleProvider = new GoogleAuthProvider();
   signInWithPopup(auth, googleProvider)
-    .then(result => {
+    .then(() => {
       console.log('Successfully registered using Google!');
       console.log(auth.currentUser);
 
@@ -180,7 +182,7 @@ const signInUserUsingGoogle = (): void => {
 const signInUserUsingFacebook = (): void => {
   const facebookProvider = new FacebookAuthProvider();
   signInWithPopup(auth, facebookProvider)
-    .then(result => {
+    .then(() => {
       console.log('Successfully registered using Facebook!');
       console.log(auth.currentUser);
 
