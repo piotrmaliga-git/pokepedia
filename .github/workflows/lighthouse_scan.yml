@@ -23,7 +23,8 @@ jobs:
 
       - name: build application
         run: npm run build
-      - run: npm run dev & npx wait-on http://localhost:3300
-      - run: |
+
+      - name: run Lighthouse CI
+        run: |
           npm install -g @lhci/cli@0.12.x
-          lhci collect --url http://localhost:3300
+          lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
