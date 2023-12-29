@@ -1,5 +1,4 @@
 import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDgFEYvVEafC0HbLndUFSMMQVrPGleKra8',
@@ -11,5 +10,5 @@ const firebaseConfig = {
   measurementId: 'G-LPXC81RWCK',
 };
 
+// eslint-disable-next-line no-unused-vars
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
