@@ -22,12 +22,10 @@ jobs:
         run: npm ci
 
       - name: build application
-        run: npm run build --if-present
-
-      - name: start application
-        run: npm run dev & npx wait-on http://localhost:3300
+        run: npm run build
 
       - name: Run axe
         run: |
           npm install -g @axe-core/cli
+          set -x  # enable debugging
           axe http://localhost:3300 --exit
