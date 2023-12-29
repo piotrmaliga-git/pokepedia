@@ -5,13 +5,12 @@ import router from './router';
 
 import i18n from './i18n';
 
-import '@assets/styles/main.css';
+import '@styles/main.css';
 
 import '@fontsource/rubik';
 import '@fontsource/rubik/700.css';
 
 import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDgFEYvVEafC0HbLndUFSMMQVrPGleKra8',
@@ -23,7 +22,7 @@ const firebaseConfig = {
   measurementId: 'G-LPXC81RWCK',
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 createApp(App).use(router).use(i18n).mount('#app');
