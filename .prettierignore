@@ -1,0 +1,12 @@
+# Ignore common direcotries:
+public 
+dist
+
+# Ignore unit tests coverage directory:
+coverage
+
+# Ignore stats file from rollup-plugin-visualizer
+stats.html
+
+# Ignore SonarQube configuration file:
+sonar-project.properties

@@ -7,6 +7,7 @@
           <a
             href="https://www.pokemon.com/us"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Pokemon</a
           >
@@ -15,6 +16,7 @@
           <a
             href="https://bulbagarden.net"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Bulbagarden</a
           >
@@ -28,6 +30,7 @@
           <a
             href="https://github.com/piotrmaliga-git/pokepedia"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Github</a
           >
@@ -36,6 +39,7 @@
           <a
             href="https://discord.gg"
             target="_blank"
+            rel="noopener"
             class="hover:underline"
             >Discord</a
           >

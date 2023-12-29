@@ -46,6 +46,7 @@
           >{{ $t('nav.faq') }}</a
         >
       </li>
+      <!-- eslint-disable-next-line vue/no-child-content -->
       <template v-if="!auth.currentUser?.displayName">
         <router-link
           to="/signin"
@@ -87,7 +88,7 @@ const router = useRouter();
 
 const signOutUser = (): void => {
   signOut(auth)
-    .then(result => {
+    .then(() => {
       console.log('Successfully sign out!');
       router.push('/signin');
     })

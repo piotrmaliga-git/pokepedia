@@ -12,6 +12,7 @@
       <div class="flex items-center xl:order-2">
         <ThemeToggleButton />
         <LangToggleDropdown />
+        <!-- eslint-disable-next-line vue/no-child-content -->
         <template v-if="!auth.currentUser?.displayName">
           <router-link
             to="/signin"

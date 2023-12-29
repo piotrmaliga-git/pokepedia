@@ -10,6 +10,9 @@ import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite';
 import path from 'path';
 
 export default defineConfig({
+  server: {
+    port: 3300,
+  },
   plugins: [
     vue(),
     visualizer() as PluginOption,
@@ -22,6 +25,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       '@assets': path.resolve(__dirname, './src/assets'),
+      '@styles': path.resolve(__dirname, './src/styles'),
       '@components': path.resolve(__dirname, './src/components'),
       '@shared': path.resolve(__dirname, './src/components/shared'),
       '@interfaces': path.resolve(__dirname, './src/types/interfaces'),

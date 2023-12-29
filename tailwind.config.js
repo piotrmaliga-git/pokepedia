@@ -20,5 +20,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('prettier-plugin-tailwindcss', 'eslint-plugin-tailwindcss', 'flowbite/plugin')],
+  plugins: [require('prettier-plugin-tailwindcss', 'flowbite/plugin')],
 };

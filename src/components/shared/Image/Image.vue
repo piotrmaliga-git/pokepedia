@@ -4,7 +4,7 @@
       :class="class"
       :alt="alt"
       :src="src" />
-    <figcaption v-if="figcaption">{{ figcaption }}</figcaption>
+    <figcaption v-html="figcaption"></figcaption>
   </figure>
 </template>
 

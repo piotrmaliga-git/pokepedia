@@ -9,7 +9,6 @@
           class="mx-auto mt-16 h-64 w-full rounded-lg shadow-xl sm:h-96 lg:mt-0 lg:max-w-xl"
           src="https://www.youtube.com/embed/SWtDeeXtMZM"
           title="Pokémon GO - Get Up and Go!"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>

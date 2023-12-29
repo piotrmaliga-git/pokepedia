@@ -40,16 +40,6 @@
       </li>
     </ul>
   </div>
-
-  <!-- <select @change="switchLanguage">
-    <option
-      v-for="sLocale in supportedLocales"
-      :key="`locale-${sLocale}`"
-      :value="sLocale"
-      :selected="locale === sLocale">
-      {{ t(`locale.${sLocale}`) }}
-    </option>
-  </select> -->
 </template>
 
 <script setup lang="ts">

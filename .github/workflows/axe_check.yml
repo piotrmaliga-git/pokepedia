@@ -1,11 +1,12 @@
-name: Unit tests
+name: Axe check
 
 on:
   pull_request:
     branches: [master]
 
 jobs:
-  unit-tests:
+  axe-check:
+    name: axe check
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -20,5 +21,11 @@ jobs:
       - name: npm install
         run: npm ci
 
-      - name: run unit tests
-        run: npm run unit-test
+      - name: build application
+        run: npm run build
+
+      - name: Run axe
+        run: |
+          npm install -g @axe-core/cli
+          set -x  # enable debugging
+          axe http://localhost:3300 --exit

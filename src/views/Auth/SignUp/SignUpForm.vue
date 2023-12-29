@@ -146,6 +146,7 @@ const auth = getAuth();
 const v$ = useVuelidate(rules, signUpForm);
 
 const validateSignUpForm = async (): Promise<void> => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const result = await v$.value.$validate();
 
   // if (result) {
@@ -155,6 +156,7 @@ const validateSignUpForm = async (): Promise<void> => {
   // }
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const signUp = (): void => {
   createUserWithEmailAndPassword(auth, signUpForm.email, signUpForm.password)
     .then(result => {
