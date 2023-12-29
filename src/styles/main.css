@@ -1,3 +1,5 @@
+@import './scrollbar.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,46 +37,4 @@
   .theme-btn--dark {
     @apply bg-violet-600 text-white hover:bg-violet-700;
   }
-}
-
-/* scrollbar */
-
-/* general */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #f3f4f6;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #cdcdcd;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #b3b3b3;
-}
-
-/* for other browsers */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #cdcdcd #f3f4f6;
-}
-
-*::-moz-scrollbar-track {
-  background-color: #f3f4f6;
-  border-radius: 10px;
-}
-
-*::-moz-scrollbar-thumb {
-  background-color: #cdcdcd;
-  border-radius: 10px;
-}
-
-*::-moz-scrollbar-thumb:hover {
-  background-color: #b3b3b3;
 }
